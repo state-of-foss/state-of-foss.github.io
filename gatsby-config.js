@@ -1,4 +1,14 @@
+const path = require('path');
+
 module.exports = {
-  /* Your site config here */
-  plugins: [],
-}
+  plugins: [
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'content',
+        path: path.join(__dirname, 'content')
+      }
+    },
+    'gatsby-transformer-remark'
+  ]
+};
