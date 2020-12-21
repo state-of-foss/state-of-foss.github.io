@@ -1,0 +1,12 @@
+.foss-circle {
+    padding: 10px;
+    margin-bottom: 30px;
+    box-shadow: 3px 2px;
+    border: 3px solid #231F20;
+    padding-top: 7%;
+
+    max-width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+}

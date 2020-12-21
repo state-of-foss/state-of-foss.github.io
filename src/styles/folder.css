@@ -1,0 +1,22 @@
+path {
+  stroke: black;
+  stroke-width: 0.1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.filter {
+    filter: drop-shadow(17px 17px 0 black);
+}
+
+.wrapper{
+    position: relative;
+    /* width: 300px;
+    height: 300px; */
+}
+.text{
+    position: absolute;
+    justify-content: center;
+    top: 5%;
+    padding: 20%;
+}

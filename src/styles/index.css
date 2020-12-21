@@ -1,0 +1,77 @@
+.foss-focusarea-section {
+    background-color: rgba(170, 211, 255, 0.36);
+    padding-top: 50px;
+}
+
+.foss-about-section {
+    border-top: 3px solid black;
+    padding-top: 50px;
+    background-color: white;
+}
+
+.foss-opportunities-section {
+    padding-top: 50px;
+    background-color: transparent;
+    margin-bottom: 40px;
+}
+
+.foss-link {
+    background-color: #79FF74;
+    padding: 8px;
+}
+
+.foss-download-section {
+    border-top: 3px solid black;
+    padding-top: 50px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.foss-download-body {
+    margin: 50px 0;
+    padding-left: 0;
+}
+
+.foss-about-body {
+    margin: 50px 0;
+    padding-left: 0;
+}
+
+.foss-focusarea-body {
+    margin: 50px 0;
+}
+
+.foss-container {
+    width: 100%;
+    max-width: 1620px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.foss-about {
+    width: 100%;
+}
+
+.foss-footer-section {
+    background-color: #FFDFD5;
+    padding-top: 30px;
+}
+
+.foss-footer-body {
+}
+
+.foss-social-media {
+    margin-top: 50px;
+    padding-left: 0;
+}
+
+.foss-social-media-icon {
+    margin-right: 20px;
+    width: 80px;
+}
+
+li {
+    margin: 15px 0;
+}

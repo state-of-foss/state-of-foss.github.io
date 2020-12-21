@@ -1,6 +1,5 @@
 .foss-card-container {
     background-color: white;
-    position: absolute;
     width: 100%;
     box-shadow: 15px 15px;
     border: 2.5px solid #231F20;
@@ -45,4 +44,9 @@
     text-align: center;
     line-height: 9px;
     font-size: 10px;
+}
+
+.foss-opportunities-title {
+    width: 50%;
+    margin: 0 auto;
 }
