@@ -17,6 +17,59 @@ const Home = ({ data }) => {
     <>
       <div>
 
+      <Row className="foss-categories-section">
+          <Col sm={12}>
+            <Row>
+              <h1>Chronicling the FOSS movement in India</h1>
+            </Row>
+          </Col>
+          <Col sm={12} className="foss-categories-body">
+            <Row style={{height: "100vh"}}>
+              <Col md={2} style={{backgroundColor: "#FFDFD5"}}>
+                <div className="categories-folder">
+                <Folder background_color="white">
+                  <p>FOSS & Communities</p>
+                </Folder>
+                </div>
+              </Col>
+              <Col md={2} style={{backgroundColor: "#E2EED5"}}>
+              <div className="categories-folder">
+              <Folder className="categories-folder" background_color="white">
+                  <p>FOSS & Education</p>
+                </Folder>
+                </div>
+              </Col>
+              <Col md={2} style={{backgroundColor: "#FEFFB2"}}>
+              <div className="categories-folder">
+              <Folder className="categories-folder" background_color="white">
+                  <p>FOSS & Business</p>
+                </Folder>
+                </div>
+              </Col>
+              <Col md={6} style={{backgroundColor: "#B8FAFF"}}>
+              <Row style={{height: "50vh"}}>
+                <Col md={{ span: 4, offset: 2 }}>
+                <div className="categories-folder-col">
+              <Folder background_color="white">
+                  <p>FOSS & Government</p>
+              </Folder>
+              </div>
+              </Col>
+              </Row>
+              <Row style={{backgroundColor: "#66FFD5", height: "50vh"}}>
+                <Col md={{ span: 4, offset: 2 }}>
+                <div className="categories-folder-col">
+              <Folder background_color="white">
+                  <p>FOSS & Government</p>
+              </Folder>
+              </div>
+              </Col>
+              </Row>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+
       <Row className="foss-opportunities-section">
           <div className="foss-container">
             <Col sm={12}>

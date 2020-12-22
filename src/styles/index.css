@@ -1,3 +1,7 @@
+.foss-categories-section {
+    padding-top: 50px;
+}
+
 .foss-focusarea-section {
     background-color: rgba(170, 211, 255, 0.36);
     padding-top: 50px;
@@ -71,6 +75,15 @@
     margin-right: 20px;
     width: 80px;
 }
+
+.categories-folder {
+    margin-top: 60vh;
+}
+
+.categories-folder-col {
+    margin-top: 10vh;
+}
+
 
 li {
     margin: 15px 0;
