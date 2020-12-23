@@ -75,7 +75,7 @@ const Home = () => {
           <div className="foss-container">
             <Col sm={12}>
               <Row>
-              <div className={'about-us-title'}>Major FOSS led Opportunities for India</div>
+              <div className={'about-us-title foss-opportunities-title'}>Major FOSS led Opportunities for India</div>
               </Row>
             </Col>
             <Col sm={12}>
@@ -149,44 +149,56 @@ const Home = () => {
               <h2 className={'title-advancement'}>
               Chronicling the FOSS movement in India
               </h2>
+              <h4 className={'about-advancement'}>
+              Based on our conversations and reading, we classified the FOSS movement into six eras mentioned here
+              </h4>
             </Col>
           </Row>
               <Col md={2} style={{backgroundColor: "#FFDFD5"}}>
                 <div className="categories-folder">
-                <Folder background_color="white">
-                  <p>FOSS & Communities</p>
+                <Folder background_color="white" caption="1886 - 1978" folderSize="small-folder">
+                  <p>Inception Of FOSS</p>
                 </Folder>
                 </div>
               </Col>
               <Col md={2} style={{backgroundColor: "#E2EED5"}}>
               <div className="categories-folder">
-              <Folder className="categories-folder" background_color="white">
-                  <p>FOSS & Education</p>
+              <Folder className="categories-folder" background_color="white" caption="1978 - 1989" folderSize="small-folder">
+                  <p>Rise Of Free Software</p>
                 </Folder>
                 </div>
               </Col>
               <Col md={2} style={{backgroundColor: "#FEFFB2"}}>
               <div className="categories-folder">
-              <Folder className="categories-folder" background_color="white">
-                  <p>FOSS & Business</p>
+              <Folder className="categories-folder" background_color="white" caption="1991 - 1998" folderSize="small-folder">
+                  <p>Rise Of Community Businesses</p>
                 </Folder>
                 </div>
               </Col>
               <Col md={6} style={{backgroundColor: "#B8FAFF"}}>
-              <Row style={{height: "50vh"}}>
+              <Row style={{height: "33.33vh"}}>
                 <Col md={{ span: 4, offset: 2 }}>
                 <div className="categories-folder-col">
-              <Folder background_color="white">
-                  <p>FOSS & Government</p>
+              <Folder background_color="white" caption="1998 -2008" folderSize="small-folder">
+                  <p>Big Tech Fights Back</p>
               </Folder>
               </div>
               </Col>
               </Row>
-              <Row style={{backgroundColor: "#66FFD5", height: "50vh"}}>
+              <Row style={{backgroundColor: "#66FFD5", height: "33.33vh"}}>
                 <Col md={{ span: 4, offset: 2 }}>
                 <div className="categories-folder-col">
-              <Folder background_color="white">
-                  <p>FOSS & Government</p>
+              <Folder background_color="white" caption="1999 - 2019" folderSize="small-folder">
+                  <p>Global Proliferation</p>
+              </Folder>
+              </div>
+              </Col>
+              </Row>
+              <Row style={{backgroundColor: "#FFD78F", height: "33.33vh"}}>
+                <Col md={{ span: 4, offset: 2 }}>
+                <div className="categories-folder-col">
+              <Folder background_color="white" caption="2001 - 2018" folderSize="small-folder">
+                  <p>Expansion In India</p>
               </Folder>
               </div>
               </Col>
@@ -366,7 +378,7 @@ const Home = () => {
           <div className="foss-container">
           <Col sm={12}>
             <Row>
-              <Title>DOWNLOAD THE REPORT</Title>
+            <div className={'about-us-title'}>DOWNLOAD THE REPORT</div>
             </Row>
           </Col>
           <Col sm={12} className="foss-download-body">
