@@ -24,10 +24,12 @@ const Home = () => {
           <button className={"front-banner-download"}>
            <p className={"download-text"}>DOWNLOAD</p> 
           </button>
-          <div className={"front-banner-download"}>
-           <Col>
-           </Col>
-          </div>
+                  
+          <button className={"front-banner-download"}>
+           <p className={"download-text"}>DOWNLOAD1</p> 
+          </button>
+
+
 
           <div className={"front-banner-small-content"}>
           The Role of FOSS in India’s Digital Advancement
