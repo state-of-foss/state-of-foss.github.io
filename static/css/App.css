@@ -466,3 +466,64 @@ height: 77px; */
 .opportunities-section{
   margin-top: 75px;
 }
+
+.front-banner-nav{
+  background: white 0% 0% no-repeat padding-box;
+  border: 2px solid #000000;
+  opacity: 1;
+  text-align: left;
+  font-size: 31px;
+  line-height: 41px;
+  font-family:AlgolRevived;
+  letter-spacing: 0px;
+  color: #2B2E34;
+  opacity: 1;
+  outline: none;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  box-shadow: 10px 10px;
+  margin-top: 38px;
+  margin-right: 45px ;
+  float: right;
+  display: flex;
+  }
+
+  .front-banner-button{
+border: none;
+background: none;
+outline: none;
+  }
+
+.front-banner-button:active, .front-banner-button:focus {
+    outline: none;
+    border: none;
+    }
+.container-front-banner-button{
+  height: 45px;
+  width: 46px;
+  /* background-color: #bbb; */
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+}
+
+.container-front-banner-button:hover, .container-front-banner-button:active  {
+  background-color: #79FF74;
+  border: 1px solid #000000;
+}
+
+.container-front-banner-button:focus, .container-front-banner-button:active  {
+  outline: none;
+  order: none;
+}
+
+.selected{
+  
+  background-color: #79FF74;
+  border: 1px solid #000000;
+}
+
+.active{
+  color:#fcfcfc;
+ }
