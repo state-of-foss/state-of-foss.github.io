@@ -438,3 +438,31 @@ padding-left: 20px;
     padding-top: 5px;
     padding-bottom: 10px;
 }
+
+
+.opportunities-title{
+  opacity: 1;
+  border: 5px solid black;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  text-align: center;
+  line-height: 41px;
+  font-size: 31px;
+  /* width: 273px;
+height: 77px; */
+  letter-spacing: 0px;
+  color: black;
+  opacity: 1;
+  width: max-content;
+  padding-left: 36px;
+  padding-right: 39px;
+  padding-top: 12px;
+  padding-bottom: 14px;
+  margin: 30px;
+  box-shadow: 10px 10px;
+  font-weight: 900;
+  margin: auto;
+}
+
+.opportunities-section{
+  margin-top: 75px;
+}

@@ -10,25 +10,14 @@ import Folder from '../components/Folder';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../static/css/App.css';
 import Challenges from '../components/section-challenges';
+import Header from '../components/Header';
 
 const Home = () => {
   return (
       <div>
         <div className={"section-front-banner-wrapper"}>
         
-        <img
-                    src={require('../../static/images/front-img-1.png')}
-                  />
-
-        
-          <button className={"front-banner-download"}>
-           <p className={"download-text"}>DOWNLOAD</p> 
-          </button>
-                  
-          <button className={"front-banner-download"}>
-           <p className={"download-text"}>DOWNLOAD1</p> 
-          </button>
-
+        <Header />
 
 
           <div className={"front-banner-small-content"}>
@@ -109,11 +98,11 @@ const Home = () => {
           <div className="foss-container">
             <Col sm={12}>
               <Row>
-              <div className={'about-us-title'}>Major FOSS led Opportunities for India</div>
+              <div className={'opportunities-title'}>Major FOSS led Opportunities for India</div>
               </Row>
             </Col>
             <Col sm={12}>
-              <Row>
+              <Row className={"opportunities-section"}>
           <Col sm={12} md={12} lg={3}>
             <Circle background_color="#01BCD5">Tech growth</Circle>
             <Card background_color="#01BCD5">
@@ -325,7 +314,7 @@ const Home = () => {
           <div className="foss-container">
           <Col sm={12}>
             <Row>
-              <h1>Our Focus Area</h1>
+              <h2  className={'title-advancement'}>Our Focus Areas</h2>
             </Row>
           </Col>
           <Col sm={12} className="foss-focusarea-body">
