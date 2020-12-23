@@ -14,6 +14,38 @@ import Challenges from '../components/section-challenges';
 const Home = () => {
   return (
       <div>
+        <div className={"section-front-banner-wrapper"}>
+        
+        <img
+                    src={require('../../static/images/front-img-1.png')}
+                  />
+
+        
+          <button className={"front-banner-download"}>
+           <p className={"download-text"}>DOWNLOAD</p> 
+          </button>
+          <div className={"front-banner-download"}>
+           <Col>
+           </Col>
+          </div>
+
+          <div className={"front-banner-small-content"}>
+          The Role of FOSS in India’s Digital Advancement
+          </div>
+       
+          
+        
+          <div className={"section-container"}>
+            <Row>
+            <h2 className={'title-front-banner'}>
+            The State of Free & Open Source Software in India
+              </h2>
+              <img className={"front-banner-img"}
+                    src={require('../../static/images/front-img-2.png')}
+                  />
+            </Row>
+          </div>
+        </div>
         <div className={'section-advancement-wrapper'}>
         <div className={'section-container'}>
           <Row>

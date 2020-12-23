@@ -3,13 +3,13 @@
 
 @font-face {
   font-family: AlgolRevived;
-  src: url("../fonts/AlgolRevived.otf") format("opentype");
+  src: url('../fonts/AlgolRevived.otf') format('opentype');
 }
 
-#gatsby-focus-wrapper{
-  overflow-x: hidden ;
+#gatsby-focus-wrapper {
+  overflow-x: hidden;
 }
-.section-container{
+.section-container {
   margin-left: 138px;
   padding-top: 185px;
 }
@@ -67,7 +67,6 @@
   margin-left: 20px;
   font-family: AlgolRevived;
   color: #000000;
-
 }
 
 hr {
@@ -277,95 +276,165 @@ height: 77px; */
   width: 925px;
 }
 
-.section-end-hr{
+.section-end-hr {
   width: 100%;
-  margin:0px
+  margin: 0px;
 }
 
-.challenges-section-img{
+.challenges-section-img {
   padding-top: 400px;
 }
 
-.section-challenges-wrapper{
+.section-challenges-wrapper {
   background-color: rgba(255, 221, 214, 0.36);
 }
 
-.collaborations-section-img{
+.collaborations-section-img {
   margin-left: 100px;
   margin-top: 50px;
 }
 
-.ecosystemOne-section-img{
-
+.ecosystemOne-section-img {
   width: 299px;
   height: 515px;
   margin-left: 195px;
   margin-top: -25px;
 }
 
-.ecosystemTwo-section-img{
+.ecosystemTwo-section-img {
   width: 241px;
   height: 372px;
   margin-left: 36px;
   margin-top: 150px;
 }
 
-.ecosystemThree-section-img{
-
+.ecosystemThree-section-img {
   width: 248px;
   height: 375px;
   margin-top: 145px;
   margin-left: 90px;
-
 }
-.ecosystemFour-section-img{
+.ecosystemFour-section-img {
   width: 330px;
   height: 320px;
   margin-top: 150px;
   margin-left: 70px;
 }
 
-.section-ecosystem-wrapper{
+.section-ecosystem-wrapper {
   margin-bottom: 115px;
 }
 
-.recommendations-section-img{
+.recommendations-section-img {
   width: 1072px;
-height: 603px;
-margin-top: 93px;
-margin-left: -100px;
+  height: 603px;
+  margin-top: 93px;
+  margin-left: -100px;
 }
 
-.section-actors-right-col{
+.section-actors-right-col {
   padding-left: 100px;
   margin-top: 230px;
 }
 
-.section-actors-right-first-block{
-text-align: left;
-font-weight: 900;
-font-size:25px;
-line-height:30px;
-letter-spacing: 0px;
-color: #000000;
-width: 950px;
-font-family: "Prompt";
+.section-actors-right-first-block {
+  text-align: left;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #000000;
+  width: 950px;
+  font-family: 'Prompt';
 }
 
-.section-actors-right-last-block{
+.section-actors-right-last-block {
   text-align: left;
-  font-size:25px;
-  line-height:30px;
-  font-family: "Prompt";
+  font-size: 25px;
+  line-height: 30px;
+  font-family: 'Prompt';
   letter-spacing: 0px;
   color: #000000;
   width: 371px;
-  }
+}
 
-  .about-us-section-img-cdl{
-    margin-left: -47px;
-  }
+.about-us-section-img-cdl {
+  margin-left: -47px;
+}
 
-  .about-us-section-img-ONI{
-    margin-top: 60px;
-  }
+.about-us-section-img-ONI {
+  margin-top: 60px;
+}
+.front-banner-download{
+background: #F2B2F5 0% 0% no-repeat padding-box;
+border: 2px solid #000000;
+opacity: 1;
+text-align: left;
+font-size: 31px;
+line-height: 41px;
+font-family:AlgolRevived;
+letter-spacing: 0px;
+color: #2B2E34;
+opacity: 1;
+outline: none;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+box-shadow: 10px 10px;
+margin-top: 38px;
+margin-right: 45px ;
+float: right;
+}
+.download-text{
+  margin-bottom: 0 !important;
+  padding-top:9.67px; 
+padding-right: 45.16px;
+padding-bottom:14.16px;
+padding-left:  44.3px;
+}
+
+.title-front-banner{
+  text-align: left;
+  font-size:100px;
+  line-height:100px;
+  font-family: ModeSeven;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 1000px;
+height: 418px;
+}
+
+.front-banner-img{
+  margin-top: -50px;
+  margin-left: -115px;
+}
+
+
+.front-banner-small-content{
+  background: #79FF74 0% 0% no-repeat padding-box;
+border: 2px solid #000000;
+opacity: 1;
+text-align: left;
+font-size: 22px;
+line-height: 30px;
+font-family:"Prompt";
+letter-spacing: 0px;
+color:black;
+opacity: 1;
+outline: none;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+box-shadow: 10px 10px #2B2E34;;
+margin-top: 38px;
+margin-right: 45px ;
+float: right;
+opacity: 1;
+width: 325px;
+margin-top: 150px;
+margin-right: -500px;
+padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
