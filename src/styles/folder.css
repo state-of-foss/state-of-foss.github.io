@@ -18,5 +18,19 @@ path {
     position: absolute;
     justify-content: center;
     top: 5%;
-    padding: 20%;
+    padding: 25%;
+}
+
+.small-folder {
+    margin: 10%;
+}
+
+.folder-caption {
+    background-color: #F8FF40;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 7px;
+    margin: -25% 35%;
+    float: left;
+    white-space: nowrap;
 }

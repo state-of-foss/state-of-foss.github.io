@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
 .foss-card-container {
     background-color: white;
-    width: 100%;
+    width: 112%;
     box-shadow: 15px 15px;
     border: 2.5px solid #231F20;
 }
@@ -22,7 +24,11 @@
 	width: 95%;
 	height: 92%;
 	position: relative;
-	margin: 0 auto 20px;
+    margin: 0 auto 20px;
+    font-family: "Prompt";
+    color: #1A1A1A;
+    font-size: 22px;
+    
 }
 
 .foss-card-info {
