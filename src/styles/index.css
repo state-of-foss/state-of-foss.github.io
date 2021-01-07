@@ -59,6 +59,12 @@ body {
     margin-left: auto;
 }
 
+@media only screen and (max-width: 820px) {
+  .foss-container {
+      max-width: 820px;
+  }
+}
+
 .foss-about {
     width: 100%;
 }
@@ -140,4 +146,20 @@ li {
 
 .modal-close:hover {
     transform: scale(1.1);
+}
+
+.download-folder {
+    position: absolute;
+    top: 4%;
+    padding: 25% 20%;
+    font-size: 20px;
+    font-size: 24px;
+}
+
+.normal-folder {
+    position: absolute;
+    justify-content: center;
+    top: 5%;
+    padding: 27% 32%;
+    font-weight: 600;
 }

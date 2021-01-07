@@ -2,9 +2,10 @@
 
 .foss-card-container {
     background-color: white;
-    width: 112%;
+    width: 90%;
     box-shadow: 15px 15px;
     border: 2.5px solid #231F20;
+    margin: auto;
 }
 
 .foss-card-title {

@@ -119,7 +119,7 @@ class Home extends Component {
           </Col>
           <Col sm={12}>
             <Row className={'opportunities-section'}>
-              <Col sm={12} md={12} lg={3}>
+              <Col sm={12} md={12} lg={4}>
                 <Circle background_color="#01BCD5">Tech growth</Circle>
                 <Card background_color="#01BCD5">
                   <ul>
@@ -129,7 +129,7 @@ class Home extends Component {
                   </ul>
                 </Card>
               </Col>
-              <Col sm={12} md={12} lg={{ span: 3, offset: 1 }}>
+              <Col sm={12} md={12} lg={{ span: 4 }}>
                 <Circle background_color="#FF9B21">Economic growth</Circle>
                 <Card background_color="#FF9B21">
                   <ul>
@@ -141,7 +141,7 @@ class Home extends Component {
                   </ul>
                 </Card>
               </Col>
-              <Col sm={12} md={12} lg={{ span: 3, offset: 1 }}>
+              <Col sm={12} md={12} lg={{ span: 4 }}>
                 <Circle background_color="#FFDFD5">Talent growth</Circle>
                 <Card background_color="#FFDFD5">
                   <ul>
@@ -199,21 +199,27 @@ class Home extends Component {
             <Col md={2} style={{ backgroundColor: "#FFDFD5" }}>
               <div className="categories-folder">
                 <Folder background_color="white" caption="1886 - 1978" folderSize="small-folder" handleClick={this.showModal}>
+                  <div className={"normal-folder"}>
                   <p>Inception Of FOSS</p>
+                  </div>
                 </Folder>
               </div>
             </Col>
             <Col md={2} style={{ backgroundColor: '#E2EED5' }}>
               <div className="categories-folder">
                 <Folder className="categories-folder" background_color="white" caption="1978 - 1989" folderSize="small-folder">
+                  <div className={"normal-folder"}>
                   <p>Rise Of Free Software</p>
+                  </div>
                 </Folder>
               </div>
             </Col>
             <Col md={2} style={{ backgroundColor: '#FEFFB2' }}>
               <div className="categories-folder">
                 <Folder className="categories-folder" background_color="white" caption="1991 - 1998" folderSize="small-folder">
+                  <div className={"normal-folder"}>
                   <p>Rise Of Community Businesses</p>
+                  </div>
                 </Folder>
               </div>
             </Col>
@@ -222,7 +228,9 @@ class Home extends Component {
                 <Col md={{ span: 4, offset: 2 }}>
                   <div className="categories-folder-col">
                     <Folder background_color="white" caption="1998 -2008" folderSize="small-folder">
+                  <div className={"normal-folder"}>
                       <p>Big Tech Fights Back</p>
+                      </div>
                     </Folder>
                   </div>
                 </Col>
@@ -231,7 +239,9 @@ class Home extends Component {
                 <Col md={{ span: 4, offset: 2 }}>
                   <div className="categories-folder-col">
                     <Folder background_color="white" caption="1999 - 2019" folderSize="small-folder">
+                  <div className={"normal-folder"}>
                       <p>Global Proliferation</p>
+                      </div>
                     </Folder>
                   </div>
                 </Col>
@@ -240,7 +250,9 @@ class Home extends Component {
                 <Col md={{ span: 4, offset: 2 }}>
                   <div className="categories-folder-col">
                     <Folder background_color="white" caption="2001 - 2018" folderSize="small-folder">
+                  <div className={"normal-folder"}>
                       <p>Expansion In India</p>
+                      </div>
                     </Folder>
                   </div>
                 </Col>
@@ -347,24 +359,32 @@ class Home extends Component {
           </Col>
           <Col sm={12} className="foss-focusarea-body">
             <Row>
-              <Col md={2}>
+              <Col md={2} style={{left: "-3%"}}>
                 <Folder background_color="#FFDDD6">
+                  <div className={"normal-folder"}>
                   <p>FOSS & Communities</p>
+                  </div>
                 </Folder>
               </Col>
-              <Col md={{ span: 2, offset: 1 }}>
+              <Col md={{ span: 2, offset: 0 }} style={{left: "-3%"}}>
                 <Folder background_color="#FFD8FC">
+                  <div className={"normal-folder"}>
                   <p>FOSS & Education</p>
+                  </div>
                 </Folder>
               </Col>
-              <Col md={{ span: 2, offset: 1 }}>
+              <Col md={{ span: 2, offset: 0 }} style={{left: "-3%"}}>
                 <Folder background_color="#FCFFE0">
+                  <div className={"normal-folder"}>
                   <p>FOSS & Business</p>
+                  </div>
                 </Folder>
               </Col>
-              <Col md={{ span: 2, offset: 1 }}>
+              <Col md={{ span: 2, offset: 0 }} style={{left: "-3%"}}>
                 <Folder background_color="#AAD3FF">
+                  <div className={"normal-folder"}>
                   <p>FOSS & Government</p>
+                  </div>
                 </Folder>
               </Col>
             </Row>
@@ -422,22 +442,26 @@ class Home extends Component {
             <Row>
               <Col md={4}>
                 <Folder background_color="white">
+                  <div className={"download-folder"}>
                   <p>The State of Free & Open Source Software in India</p>
                   <p>
                     <a className="foss-link" href="#">
                       Executive Summary
                     </a>
                   </p>
+                  </div>
                 </Folder>
               </Col>
               <Col md={{ span: 4, offset: 1 }}>
                 <Folder background_color="white">
+                  <div className={"download-folder"}>
                   <p>The State of Free & Open Source Software in India</p>
                   <p>
                     <a className="foss-link" href="#">
                       Executive Summary
                     </a>
                   </p>
+                  </div>
                 </Folder>
               </Col>
             </Row>
