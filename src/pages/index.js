@@ -7,13 +7,33 @@ import { graphql } from 'gatsby';
 import Title from '../components/Title';
 import Circle from '../components/Circle';
 import Folder from '../components/Folder';
+import FolderContainer from '../components/FolderContainer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../static/css/App.css';
 import Challenges from '../components/section-challenges';
 import Header from '../components/Header';
 import { Link } from 'gatsby';
+import { Component } from 'react';
 
-const Home = () => {
+class Home extends Component {
+    constructor() {
+    super();
+    this.state = {
+      show: false
+    };
+    this.showModal = this.showModal.bind(this);
+    this.hideModal = this.hideModal.bind(this);
+  }
+
+  showModal = () => {
+    this.setState({ show: true });
+  };
+
+  hideModal = () => {
+    this.setState({ show: false });
+  };
+
+  render() {
   return (
     <div>
       <div className={'section-front-banner-wrapper'} id="section-1">
@@ -158,6 +178,10 @@ const Home = () => {
         </div>
       </Row>
 
+      <FolderContainer show={this.state.show} handleClose={this.hideModal} image="inception-of-foss">
+          <p>Modal</p>
+      </FolderContainer>
+
       <Row className="foss-categories-section" id="section-3">
         <Col sm={12}></Col>
         <Col sm={12} className="foss-categories-body">
@@ -174,7 +198,7 @@ const Home = () => {
             </Row>
             <Col md={2} style={{ backgroundColor: "#FFDFD5" }}>
               <div className="categories-folder">
-                <Folder background_color="white" caption="1886 - 1978" folderSize="small-folder">
+                <Folder background_color="white" caption="1886 - 1978" folderSize="small-folder" handleClick={this.showModal}>
                   <p>Inception Of FOSS</p>
                 </Folder>
               </div>
@@ -501,5 +525,6 @@ const Home = () => {
     </div>
   );
 };
+}
 
 export default Home;

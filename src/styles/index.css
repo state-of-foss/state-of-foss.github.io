@@ -103,3 +103,41 @@ body {
 li {
     margin: 15px 0;
 }
+
+.folder-image {
+    width: 100%;
+    height: 100%;
+    z-index: 1
+}
+
+.foss-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.modal-close {
+    top: 0;
+    right: 0;
+    margin: 50px;
+    z-index: 2;
+    position: fixed;
+    cursor: pointer;
+    transition: transform 0.1s linear;
+}
+
+.modal-close:hover {
+    transform: scale(1.1);
+}
