@@ -144,7 +144,27 @@ li {
     transition: transform 0.1s linear;
 }
 
-.modal-close:hover {
+.modal-next {
+    top: 45vh;
+    right: 0;
+    margin: 50px;
+    z-index: 2;
+    position: fixed;
+    cursor: pointer;
+    transition: transform 0.1s linear;
+}
+
+.modal-previous {
+    top: 45vh;
+    left: 0;
+    margin: 50px;
+    z-index: 2;
+    position: fixed;
+    cursor: pointer;
+    transition: transform 0.1s linear;
+}
+
+.modal-close:hover, .modal-next, .modal-previous {
     transform: scale(1.1);
 }
 
