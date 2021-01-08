@@ -466,7 +466,7 @@ class Home extends Component {
                   <p>The State of Free & Open Source Software in India</p>
                   <p>
                     <a className="foss-link" href="#">
-                      Executive Summary
+                      Entire Report
                     </a>
                   </p>
                   </div>
@@ -492,7 +492,7 @@ class Home extends Component {
           <br />
 
           <Row>
-            <Col sm={6}>
+            <Col sm={8}>
               <p className={'about-us-left-content'}>
                 <h1 className={'org-name'}>CIVICDATALAB</h1>
                 <br />
@@ -504,22 +504,18 @@ class Home extends Component {
                 tanks, media houses, universities etc to enable data-driven
                 decision making at scale.
               </p>
+              <a href="https://civicdatalab.in/">
               <img
                 src={require('../../static/images/cdl-logo.png')}
                 className={'about-us-section-img-cdl'}
               />
+              </a>
             </Col>
-            <Col sm={6}>
+            <Col sm={4} className={"ONI-section"}>
               <p className={'about-us-right-content'}>
-                <h1 className={'org-name'}>OMIDYAR NETWORK </h1>
-                <br />
-                We invest in bold entrepreneurs who help create a meaningful
-                life for every Indian, especially the hundreds of millions of
-                Indians in low-income and lower-middle-income populations,
-                ranging from the poorest among us to the existing middle class.
-                To drive empowerment and social impact at scale, we work with
-                entrepreneurs in the private, non-profit and public sectors, who
-                are tackling India’s hardest and most chronic problems.
+                
+                Supported By
+
               </p>
               <img
                 src={require('../../static/images/ONI-logo.png')}
@@ -539,18 +535,24 @@ class Home extends Component {
             </Row>
           </Col>
           <Col sm={12} className="foss-social-media">
+            <a href="https://github.com/state-of-foss/website">
             <img
               className="foss-social-media-icon"
               src="images/github-logo.png"
             ></img>
+            </a>
+            <a href="https://twitter.com/StateOfFOSS">
             <img
               className="foss-social-media-icon"
               src="images/twitter-logo.png"
             ></img>
+            </a>
+            <a href="mailto: ">
             <img
               className="foss-social-media-icon"
               src="images/mail-logo.png"
             ></img>
+            </a>
           </Col>
         </div>
       </Row>
