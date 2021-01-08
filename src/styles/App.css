@@ -18,6 +18,10 @@
   height: 369px;
   line-height: 50px;
 }
+.section-front-banner-wrapper{
+  background-image: url('../../static/images/landing-page-img.png');
+  height: 1080px;
+}
 
 .first-last-block {
   text-align: left;
@@ -54,7 +58,7 @@
 .middle-block {
   font-size: 60px;
   line-height: 66px;
-  width: 700px;
+  width: 773px;
   height: 266px;
   margin-top: 42px;
   margin-bottom: 32px;
@@ -122,6 +126,7 @@ height: 77px; */
   padding-top: 56px;
   padding-bottom: 25px;
   font-size: 25px;
+  background-color: white;
 }
 
 span {
@@ -292,7 +297,7 @@ height: 77px; */
   width: 299px;
   height: 515px;
   margin-left: 195px;
-  margin-top: -25px;
+  margin-top: 12px;
 }
 
 .ecosystemTwo-section-img {
@@ -520,4 +525,13 @@ height: 77px; */
 
 .active {
   color: #fcfcfc;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .sec-row-wrapper-section-advancement {
+    display: flex;
+    flex-direction: column;
+    margin-left: -149px !important;
+    padding-left: 10px;
+  }
 }

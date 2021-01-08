@@ -13,6 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/App.css';
 import Challenges from '../components/section-challenges';
 import Header from '../components/Header';
+import FocusAreaContent from "../components/FocusAreaContentEdu";
 import { Link } from 'gatsby';
 import { Component } from 'react';
 
@@ -46,12 +47,13 @@ class Home extends Component {
       <div className={'section-front-banner-wrapper'} id="section-1">
         <Header />
 
-        <div className={'front-banner-small-content'}>
+        {/* <div className={'front-banner-small-content'}>
           The Role of FOSS in India’s Digital Advancement
-        </div>
+        </div> */}
 
         <div className={'section-container'}>
-          <Row>
+        
+          {/* <Row>
             <h2 className={'title-front-banner'}>
               The State of Free & Open Source Software in India
             </h2>
@@ -59,19 +61,19 @@ class Home extends Component {
               className={'front-banner-img'}
               src={require('../../static/images/front-img-2.png')}
             />
-          </Row>
+          </Row> */}
         </div>
       </div>
       <div className={'section-advancement-wrapper'} id="section-2">
         <div className={'section-container'}>
-          <Row>
+          <Row className={"first-row-wrapper-section-advancement"}>
             <Col sm={3} className={'left-col'}>
               <h2 className={'title-advancement'}>
                 The Role of FOSS in India’s Digital Advancement
               </h2>
             </Col>
           </Row>
-          <Row>
+          <Row className={"sec-row-wrapper-section-advancement"}>
             <Col sm={3} className={'left-section-advancement'}>
               <hr className={'left-line'}></hr>
               <p className={'advancement-left-content'}>
@@ -415,7 +417,7 @@ class Home extends Component {
               </p>
               <hr />
               <h2 className={'middle-block'}>
-                FOSS an ideal choice for developing open-source digital
+                FOSS is an ideal choice for developing open-source digital
                 ecosystems with a long-term vision
               </h2>
               <hr />
@@ -552,6 +554,7 @@ class Home extends Component {
           </Col>
         </div>
       </Row>
+      <FocusAreaContent />
     </div>
   );
 };
