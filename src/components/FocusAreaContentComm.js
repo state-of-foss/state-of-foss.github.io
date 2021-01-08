@@ -25,10 +25,12 @@ const FocusAreaContentComm = () => {
           </p>
           <div onClick={() => setValue(0)}  className={"folder-1"} >
           <Folder background_color="white"> 
+          <div className={"component-folder"}>
             <p>outreachey</p>
+            </div>
           </Folder>
           </div>
-          <div className={"card"}>
+          <div className={"window-card"}>
           <Card background_color="#01BCD5" >
                   {box}
                 </Card>
@@ -52,7 +54,9 @@ const FocusAreaContentComm = () => {
           </p>
           <div onClick={() => setValue(1)}  className={"folder-2"} >
           <Folder background_color="white">
+          <div className={"component-folder"}>
             <p>Spoken Tutorial</p>
+            </div>
           </Folder>
           </div>
         </div>
@@ -67,7 +71,9 @@ const FocusAreaContentComm = () => {
           </p>
           <div className={"folder-3"} onClick={() => setValue(2)} >
           <Folder background_color="white">
+          <div className={"component-folder"}>
             <p>FOSSEE</p>
+            </div>
           </Folder>
           </div>
         </div>

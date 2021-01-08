@@ -130,6 +130,7 @@ li {
     height: 100%;
     background: white;
     z-index: 2;
+    overflow: scroll;
 }
 
 .display-block {
@@ -190,4 +191,16 @@ li {
     top: 5%;
     padding: 27% 32%;
     font-weight: 600;
+}
+
+.component-folder {
+    position: absolute;
+    justify-content: center;
+    top: 5%;
+    padding: 27% 24%;
+    font-weight: 600;
+}
+
+.folder-component-view {
+    margin-top: 5%;
 }

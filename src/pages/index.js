@@ -556,7 +556,6 @@ class Home extends Component {
           </Col>
         </div>
       </Row>
-    
     </div>
   );
 };

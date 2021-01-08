@@ -1,5 +1,4 @@
 @import url(//db.onlinewebfonts.com/c/a0cb693c715aaf804e67963c4d0d4d90?family=ModeSeven);
-@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 
 @font-face {
     font-family: AlgolRevived;
@@ -76,7 +75,7 @@ color: #0050EF;
 line-height: 22px;
 }
 
-.card {
+.window-card {
     background-color: none;
     width: 300px;
     margin-top: 59px;
