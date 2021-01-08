@@ -9,7 +9,7 @@ import Circle from '../components/Circle';
 import Folder from '../components/Folder';
 import FolderContainer from '../components/FolderContainer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../static/css/App.css';
+import '../styles/App.css';
 import Challenges from '../components/section-challenges';
 import Header from '../components/Header';
 // import FocusAreaContent from "../components/FocusAreaContent";

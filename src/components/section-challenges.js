@@ -1,6 +1,5 @@
 import React from 'react';
 import data from '../../static/data/data.json';
-import '../../static/css/App.css';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 const Challenges = () => {

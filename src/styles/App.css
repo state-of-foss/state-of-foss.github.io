@@ -1,11 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/a0cb693c715aaf804e67963c4d0d4d90?family=ModeSeven);
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
-@font-face {
-  font-family: AlgolRevived;
-  src: url('../fonts/AlgolRevived.otf') format('opentype');
-}
+@import '../fonts/fonts.css';
 
 #gatsby-focus-wrapper {
   overflow-x: hidden;
@@ -387,12 +380,15 @@ height: 77px; */
   margin-right: 45px;
   float: right;
 }
+<<<<<<< HEAD:static/css/App.css
 
 .front-banner-button > .tooltip-inner {
   background-color: #fff;
   color: red;
 }
 
+=======
+>>>>>>> master:src/styles/App.css
 .download-text {
   margin-bottom: 0 !important;
   padding-top: 9.67px;
@@ -425,7 +421,11 @@ height: 77px; */
   text-align: left;
   font-size: 22px;
   line-height: 30px;
+<<<<<<< HEAD:static/css/App.css
   font-family: 'Nunito';
+=======
+  font-family: 'Prompt';
+>>>>>>> master:src/styles/App.css
   letter-spacing: 0px;
   color: black;
   opacity: 1;
@@ -501,8 +501,15 @@ height: 77px; */
   outline: none;
 }
 
+<<<<<<< HEAD:static/css/App.css
 .front-banner-button .tooltip-inner {
   background-color: #baead6; 
+=======
+.front-banner-button:active,
+.front-banner-button:focus {
+  outline: none;
+  border: none;
+>>>>>>> master:src/styles/App.css
 }
 .container-front-banner-button {
   height: 45px;
@@ -533,6 +540,7 @@ height: 77px; */
 .active {
   color: #fcfcfc;
 }
+<<<<<<< HEAD:static/css/App.css
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   .sec-row-wrapper-section-advancement {
@@ -542,3 +550,5 @@ height: 77px; */
     padding-left: 10px;
   }
 }
+=======
+>>>>>>> master:src/styles/App.css

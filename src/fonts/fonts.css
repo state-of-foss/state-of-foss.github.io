@@ -1,0 +1,10 @@
+@font-face {
+  font-family: ModeSeven;
+  src: url('Modeseven.ttf');
+  font-display: swap;
+}
+@font-face {
+  font-family: AlgolRevived;
+  src: url('AlgolRevived.otf');
+  font-display: swap;
+}
