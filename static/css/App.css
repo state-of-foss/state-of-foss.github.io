@@ -527,3 +527,16 @@ outline: none;
 .active{
   color:#fcfcfc;
  }
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+  .sec-row-wrapper-section-advancement{
+    display: flex;
+    flex-direction: column;
+    margin-left: -149px !important;
+    padding-left: 10px;
+  }
+}

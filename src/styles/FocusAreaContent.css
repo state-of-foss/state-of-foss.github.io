@@ -1,0 +1,53 @@
+@import url(//db.onlinewebfonts.com/c/a0cb693c715aaf804e67963c4d0d4d90?family=ModeSeven);
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+@font-face {
+    font-family: AlgolRevived;
+    src: url('../../static/fonts/AlgolRevived.otf') format('opentype');
+  }
+  
+
+.column-container-focus-area{
+    text-align: left;
+    font-size: 25px;
+    line-height: 30px;
+    font-family:  "Prompt";
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.left{
+    width: 374px;
+}
+
+.middle{
+    width: 400px;
+    margin-left: 44px;
+}
+
+.right{
+    width: 400px;
+    margin-left: 74px;
+}
+
+.column-wrapper-focus-area{
+    margin-left: 277px;
+    display: flex;
+}
+
+.folder{
+    width: 183px;
+    height: 104px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.card{
+    text-align: left;
+font-size:17px !important;
+line-height: 22px !important;
+letter-spacing: 0px;
+color: #0050EF;
+opacity: 1;
+}
+

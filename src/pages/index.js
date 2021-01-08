@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../static/css/App.css';
 import Challenges from '../components/section-challenges';
 import Header from '../components/Header';
+import FocusAreaContent from "../components/FocusAreaContent";
 import { Link } from 'gatsby';
 
 const Home = () => {
@@ -37,14 +38,14 @@ const Home = () => {
       </div>
       <div className={'section-advancement-wrapper'} id = "section-2">
         <div className={'section-container'}>
-          <Row>
+          <Row className={"first-row-wrapper-section-advancement"}>
             <Col sm={3} className={'left-col'}>
               <h2 className={'title-advancement'}>
                 The Role of FOSS in India’s Digital Advancement
               </h2>
             </Col>
           </Row>
-          <Row>
+          <Row className={"sec-row-wrapper-section-advancement"}>
             <Col sm={3} className={'left-section-advancement'}>
               <hr className={'left-line'}></hr>
               <p className={'advancement-left-content'}>
@@ -512,6 +513,7 @@ const Home = () => {
           </Col>
         </div>
       </Row>
+      <FocusAreaContent />
     </div>
   );
 };
