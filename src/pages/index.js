@@ -36,7 +36,7 @@ const Home = () => {
           </Row>
         </div>
       </div>
-      <div className={'section-advancement-wrapper'} id = "section-2">
+      <div className={'section-advancement-wrapper'} id="section-2">
         <div className={'section-container'}>
           <Row className={"first-row-wrapper-section-advancement"}>
             <Col sm={3} className={'left-col'}>
@@ -95,9 +95,7 @@ const Home = () => {
         <div className="foss-container">
           <Col sm={12}>
             <Row>
-              <div className={'opportunities-title'}>
-                Major FOSS led Opportunities for India
-              </div>
+              <div className={'opportunities-title'}>Major FOSS led Opportunities for India</div>
             </Row>
           </Col>
           <Col sm={12}>
@@ -106,18 +104,9 @@ const Home = () => {
                 <Circle background_color="#01BCD5">Tech growth</Circle>
                 <Card background_color="#01BCD5">
                   <ul>
-                    <li>
-                      Build robust FOSS stacks for key sectors like Health,
-                      Education, Finance and more
-                    </li>
-                    <li>
-                      Enable more privacy-centric, secure and ethical
-                      trust-based computing
-                    </li>
-                    <li>
-                      Onboard more users by delivering digital services in more
-                      Indian Language
-                    </li>
+                    <li>Build robust FOSS stacks for key sectors like Health, Education, Finance and more</li>
+                    <li>Enable more privacy-centric, secure and ethical trust-based computing</li>
+                    <li>Onboard more users by delivering digital services in more Indian Language</li>
                   </ul>
                 </Card>
               </Col>
@@ -125,16 +114,10 @@ const Home = () => {
                 <Circle background_color="#FF9B21">Economic growth</Circle>
                 <Card background_color="#FF9B21">
                   <ul>
-                    <li>
-                      Lower cost of ownership of digital infrastructure &
-                      services
-                    </li>
+                    <li>Lower cost of ownership of digital infrastructure & services</li>
                     <li>Avoid vendor lock-ins and reduce switching costs</li>
                     <li>Better ease of tech adoption for MSMEs</li>
-                    <li>
-                      Reduce cost by reuse, customization, localization,
-                      personalization of software
-                    </li>
+                    <li>Reduce cost by reuse, customization, localization, personalization of software</li>
                     <li>Reducing imports & conserving foreign exchange</li>
                   </ul>
                 </Card>
@@ -143,19 +126,10 @@ const Home = () => {
                 <Circle background_color="#FFDFD5">Talent growth</Circle>
                 <Card background_color="#FFDFD5">
                   <ul>
-                    <li>
-                      Promotes commons-based peer production of
-                      information,knowledge & culture
-                    </li>
-                    <li>
-                      Improves key skills like leadership, collaboration,
-                      participation & more
-                    </li>
+                    <li>Promotes commons-based peer production of information,knowledge & culture</li>
+                    <li>Improves key skills like leadership, collaboration, participation & more</li>
                     <li>Make technology talent more market ready</li>
-                    <li>
-                      Opens door for multilateral collaborations across
-                      communities
-                    </li>
+                    <li>Opens door for multilateral collaborations across communities</li>
                   </ul>
                 </Card>
               </Col>
@@ -188,50 +162,62 @@ const Home = () => {
       <Row className="foss-categories-section" id="section-3">
         <Col sm={12}></Col>
         <Col sm={12} className="foss-categories-body">
-          <Row style={{ height: '100vh' }}>
-            <Row style={{ position: 'absolute', zIndex: 1, margin: '100px' }}>
+          <Row style={{ height: "100vh" }}>
+            <Row style={{ position: "absolute", zIndex: 1, margin: "100px" }}>
               <Col sm={3} className={'left-col'}>
                 <h2 className={'title-advancement'}>
                   Chronicling the FOSS movement in India
-                </h2>
+              </h2>
+                <h4 className={'about-advancement'}>
+                  Based on our conversations and reading, we classified the FOSS movement into six eras mentioned here
+              </h4>
               </Col>
             </Row>
-            <Col md={2} style={{ backgroundColor: '#FFDFD5' }}>
+            <Col md={2} style={{ backgroundColor: "#FFDFD5" }}>
               <div className="categories-folder">
-                <Folder background_color="white">
-                  <p>FOSS & Communities</p>
+                <Folder background_color="white" caption="1886 - 1978" folderSize="small-folder">
+                  <p>Inception Of FOSS</p>
                 </Folder>
               </div>
             </Col>
             <Col md={2} style={{ backgroundColor: '#E2EED5' }}>
               <div className="categories-folder">
-                <Folder className="categories-folder" background_color="white">
-                  <p>FOSS & Education</p>
+                <Folder className="categories-folder" background_color="white" caption="1978 - 1989" folderSize="small-folder">
+                  <p>Rise Of Free Software</p>
                 </Folder>
               </div>
             </Col>
             <Col md={2} style={{ backgroundColor: '#FEFFB2' }}>
               <div className="categories-folder">
-                <Folder className="categories-folder" background_color="white">
-                  <p>FOSS & Business</p>
+                <Folder className="categories-folder" background_color="white" caption="1991 - 1998" folderSize="small-folder">
+                  <p>Rise Of Community Businesses</p>
                 </Folder>
               </div>
             </Col>
-            <Col md={6} style={{ backgroundColor: '#B8FAFF' }}>
-              <Row style={{ height: '50vh' }}>
+            <Col md={6} style={{ backgroundColor: "#B8FAFF" }}>
+              <Row style={{ height: "33.33vh" }}>
                 <Col md={{ span: 4, offset: 2 }}>
                   <div className="categories-folder-col">
-                    <Folder background_color="white">
-                      <p>FOSS & Government</p>
+                    <Folder background_color="white" caption="1998 -2008" folderSize="small-folder">
+                      <p>Big Tech Fights Back</p>
                     </Folder>
                   </div>
                 </Col>
               </Row>
-              <Row style={{ backgroundColor: '#66FFD5', height: '50vh' }}>
+              <Row style={{ backgroundColor: "#66FFD5", height: "33.33vh" }}>
                 <Col md={{ span: 4, offset: 2 }}>
                   <div className="categories-folder-col">
-                    <Folder background_color="white">
-                      <p>FOSS & Government</p>
+                    <Folder background_color="white" caption="1999 - 2019" folderSize="small-folder">
+                      <p>Global Proliferation</p>
+                    </Folder>
+                  </div>
+                </Col>
+              </Row>
+              <Row style={{ backgroundColor: "#FFD78F", height: "33.33vh" }}>
+                <Col md={{ span: 4, offset: 2 }}>
+                  <div className="categories-folder-col">
+                    <Folder background_color="white" caption="2001 - 2018" folderSize="small-folder">
+                      <p>Expansion In India</p>
                     </Folder>
                   </div>
                 </Col>
@@ -406,7 +392,7 @@ const Home = () => {
         <div className="foss-container">
           <Col sm={12}>
             <Row>
-              <Title>DOWNLOAD THE REPORT</Title>
+              <div className={'about-us-title'}>DOWNLOAD THE REPORT</div>
             </Row>
           </Col>
           <Col sm={12} className="foss-download-body">

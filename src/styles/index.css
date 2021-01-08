@@ -33,7 +33,7 @@ body {
     border-top: 3px solid black;
     padding-top: 50px;
     margin-top: 50px;
-    background-color: white;
+    background-color: transparent;
 }
 
 .foss-download-body {
@@ -69,11 +69,8 @@ body {
     padding-bottom: 50px;
 }
 
-.foss-footer-body {
-}
-
 .foss-social-media {
-    margin-top: 50px;
+    margin-top: 10px;
     padding-left: 0;
 }
 
@@ -83,12 +80,25 @@ body {
 }
 
 .categories-folder {
-    margin-top: 60vh;
+    margin-top: 40vh;
 }
 
 .categories-folder-col {
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
+
+.foss-opportunities-title {
+    margin: 50px auto;
+}
+
+.about-advancement {
+    text-align: left;
+    letter-spacing: 0px;
+    padding-top: 70px;
+    color: #000000;
+    opacity: 1;
+    width: 536px;
+  }
 
 li {
     margin: 15px 0;
