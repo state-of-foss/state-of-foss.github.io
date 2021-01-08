@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 function Header() {
   return (
     <>
-      <img src={require('../../static/images/front-img-1.png')} />
+      <img src={require('../../static/images/front-img-1.png')} src="nav-logo" />
 
       <button className={'front-banner-download'}>
         <p className={'download-text'}>DOWNLOAD</p>

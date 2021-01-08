@@ -60,13 +60,13 @@ export default class FolderFocusArea extends Component {
   return (
       <div>
         {this.state.step > 1 &&
-          <img className="modal-previous" src={arrow_back} onClick={this.previousStep} />
+          <img className="modal-previous" alt="modal-previous" src={arrow_back} onClick={this.previousStep} />
         }
         {this.state.step < 3 &&
-          <img className="modal-next" src={arrow} onClick={this.nextStep} />
+          <img className="modal-next" alt="modal-next" src={arrow} onClick={this.nextStep} />
         }
         {this.state.step < 3 ? (
-          <img className={"folder-image-nested"} src={this.page_map[this.state.folder][this.state.step]} />
+          <img className="folder-image-nested" alt="folder" src={this.page_map[this.state.folder][this.state.step]} />
         ) : (
           <div className={"folder-component-view"}>
             { this.page_map[this.state.folder][this.state.step] }

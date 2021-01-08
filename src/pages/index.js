@@ -104,7 +104,8 @@ class Home extends Component {
 
                   <img
                     src={require('../../static/images/advancement.png')}
-                    className={'advancement-section-img'}
+                    className='advancement-section-img'
+                    alt="advancement-section"
                   />
                 </div>
 
@@ -167,7 +168,8 @@ class Home extends Component {
             <Col sm={3}>
               <img
                 src={require('../../static/images/actors.png')}
-                className={'actors-section-img'}
+                className='actors-section-img'
+                alt="actors-section"
               />
             </Col>
             <Col sm={9} className={'section-actors-right-col'}>
@@ -295,19 +297,23 @@ class Home extends Component {
           <Row>
             <img
               src={require('../../static/images/ecosystemOne.png')}
-              className={'ecosystemOne-section-img'}
+              className='ecosystemOne-section-img'
+              alt="ecosystem one"
             />
             <img
               src={require('../../static/images/ecosystemTwo.png')}
-              className={'ecosystemTwo-section-img'}
+              className='ecosystemTwo-section-img'
+              alt="ecosystem two"
             />
             <img
               src={require('../../static/images/ecosystemThree.png')}
-              className={'ecosystemThree-section-img'}
+              className='ecosystemThree-section-img'
+              alt="ecosystem three"
             />
             <img
               src={require('../../static/images/ecosystemFour.png')}
-              className={'ecosystemFour-section-img'}
+              className='ecosystemFour-section-img'
+              alt="ecosystem four"
             />
           </Row>
         </div>
@@ -325,7 +331,8 @@ class Home extends Component {
                 <div className={'d-flex justify-content-end'}>
                   <img
                     src={require('../../static/images/challenges.png')}
-                    className={'challenges-section-img'}
+                    className='challenges-section-img'
+                    alt="challenges section"
                   />
                 </div>
               </Row>
@@ -351,7 +358,8 @@ class Home extends Component {
               </p>
               <img
                 src={require('../../static/images/recommendations.png')}
-                className={'recommendations-section-img'}
+                className='recommendations-section-img'
+                alt="recommendations section"
               />
             </Col>
           </Row>
@@ -431,7 +439,8 @@ class Home extends Component {
                 </p>
                 <img
                   src={require('../../static/images/collaborations.png')}
-                  className={'collaborations-section-img'}
+                  className='collaborations-section-img'
+                  alt='collaborations section'
                 />
               </Row>
             </Col>
@@ -507,7 +516,8 @@ class Home extends Component {
               <a href="https://civicdatalab.in/">
               <img
                 src={require('../../static/images/cdl-logo.png')}
-                className={'about-us-section-img-cdl'}
+                className='about-us-section-img-cdl'
+                alt="cdl logo"
               />
               </a>
             </Col>
@@ -519,7 +529,8 @@ class Home extends Component {
               </p>
               <img
                 src={require('../../static/images/ONI-logo.png')}
-                className={'about-us-section-img-ONI'}
+                className='about-us-section-img-ONI'
+                alt="oni logo"
               />
             </Col>
           </Row>
@@ -539,18 +550,21 @@ class Home extends Component {
             <img
               className="foss-social-media-icon"
               src="images/github-logo.png"
+              alt="github logo"
             ></img>
             </a>
             <a href="https://twitter.com/StateOfFOSS">
             <img
               className="foss-social-media-icon"
               src="images/twitter-logo.png"
+              alt="twitter logo"
             ></img>
             </a>
             <a href="mailto: ">
             <img
               className="foss-social-media-icon"
               src="images/mail-logo.png"
+              alt="email logo"
             ></img>
             </a>
           </Col>
