@@ -1,3 +1,8 @@
+@font-face {
+  font-family: AlgolRevived;
+  src: url('../../static/fonts/AlgolRevived.otf') format('opentype');
+}
+
 path {
   stroke: black;
   stroke-width: 0.1;
@@ -11,14 +16,16 @@ path {
 
 .wrapper{
     position: relative;
-    /* width: 300px;
-    height: 300px; */
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+    font-family: AlgolRevived;
+    text-align: center;
 }
-.text{
-    position: absolute;
-    justify-content: center;
-    top: 5%;
-    padding: 25%;
+
+.wrapper:hover {
+    transform: scale(1.05);
 }
 
 .small-folder {
@@ -30,6 +37,7 @@ path {
     font-size: 20px;
     border: 2px solid black;
     padding: 7px;
+    transition: transform 0.5s ease-in-out;
     margin: -25% 35%;
     float: left;
     white-space: nowrap;
