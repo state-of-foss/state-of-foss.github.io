@@ -1,0 +1,529 @@
+@import url(//db.onlinewebfonts.com/c/a0cb693c715aaf804e67963c4d0d4d90?family=ModeSeven);
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+@font-face {
+  font-family: AlgolRevived;
+  src: url('../fonts/AlgolRevived.otf') format('opentype');
+}
+
+#gatsby-focus-wrapper {
+  overflow-x: hidden;
+}
+.section-container {
+  margin-left: 138px;
+  padding-top: 80px;
+}
+.text-left {
+  text-align: left;
+  font-size: 50px;
+  font-family: ModeSeven;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 462px;
+  height: 369px;
+  line-height: 50px;
+}
+
+.first-last-block {
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Prompt';
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #000000;
+  line-height: 30px;
+  opacity: 1;
+  width: 707px;
+  height: 123px;
+  margin-bottom: 30px;
+}
+
+.last-block {
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Prompt';
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #000000;
+  line-height: 30px;
+  opacity: 1;
+  width: 707px;
+  height: 123px;
+  margin-top: 50px;
+  padding-left: 21px;
+}
+.right-col {
+  padding-left: 100px;
+}
+
+.middle-block {
+  font-size: 60px;
+  line-height: 66px;
+  width: 700px;
+  height: 266px;
+  margin-top: 42px;
+  margin-bottom: 32px;
+  margin-left: 20px;
+  font-family: AlgolRevived;
+  color: #000000;
+}
+
+hr {
+  background-color: #000000;
+  height: 3px;
+  width: 775px;
+  /* float: left; */
+  margin: 0px;
+}
+
+.text-left-1 {
+  text-align: left;
+  font-size: 50px;
+  font-family: ModeSeven;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 448px;
+  height: 369px;
+  line-height: 50px;
+}
+
+.challenges {
+  opacity: 1;
+  border: 2px solid #231e21;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  text-align: center;
+  line-height: 41px;
+  font-size: 31px;
+  /* width: 273px;
+height: 77px; */
+  letter-spacing: 0px;
+  color: #2b2e34;
+  opacity: 1;
+  width: max-content;
+  padding: 15px;
+  margin-bottom: 30px;
+  box-shadow: 10px 10px;
+  font-family: AlgolRevived;
+}
+.challenges-active {
+  background: #baead6 0% 0% no-repeat padding-box;
+}
+.container-challenges {
+  margin-left: 100px;
+}
+
+.container-challenges-content {
+  border: 1px solid #707070;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 583px;
+  min-height: 100px;
+  /* height: 634px; */
+  padding-left: 52px;
+  padding-right: 49px;
+  padding-top: 56px;
+  padding-bottom: 25px;
+  font-size: 25px;
+}
+
+span {
+  font-weight: 900;
+}
+
+.right-text-ecosystem {
+  text-align: left;
+  font-size: 25px;
+  line-height: 40px;
+  width: 980px;
+  font-family: 'Prompt';
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.about-us-title {
+  opacity: 1;
+  border: 5px solid black;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  text-align: center;
+  line-height: 41px;
+  font-size: 31px;
+  /* width: 273px;
+height: 77px; */
+  letter-spacing: 0px;
+  color: black;
+  opacity: 1;
+  width: max-content;
+  padding-left: 36px;
+  padding-right: 39px;
+  padding-top: 12px;
+  padding-bottom: 14px;
+  margin: 30px;
+  box-shadow: 10px 10px;
+  font-weight: 900;
+}
+
+.about-us-left-content {
+  margin-left: 30px;
+  font-family: 'Prompt';
+  text-align: left;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #000000;
+  width: 613px;
+}
+
+.about-us-right-content {
+  font-family: 'Prompt';
+  text-align: left;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #000000;
+  /* margin-left: 330px; */
+  width: 613px;
+}
+.org-name {
+  font-size: 40px !important;
+  font-weight: 900 !important;
+}
+
+.title-advancement {
+  text-align: left;
+  font-size: 50px;
+  font-family: ModeSeven;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 536px;
+  line-height: 50px;
+}
+
+.left-line {
+  width: 400px;
+}
+
+.advancement-left-content {
+  text-align: left;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 387px;
+  padding-top: 30px;
+  padding-bottom: 23px;
+  font-family: AlgolRevived;
+}
+
+.left-section-advancement {
+  margin-top: 67px;
+}
+
+.advancement-right {
+  padding-top: 21px;
+  padding-left: 100px;
+}
+
+.advancement-right-title {
+  text-align: left;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding-top: 21px;
+}
+
+.advancement-right-content {
+  padding-top: 18px;
+  text-align: left;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-family: 'Prompt';
+  width: 751px;
+  display: inline-block;
+}
+
+.advancement-right-last-section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 15px;
+  text-align: left;
+  font-size: 75px;
+  line-height: 66px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 1025px;
+  font-family: AlgolRevived;
+}
+
+.advancement-last-section-line {
+  width: 925px;
+}
+
+.advancement-last-line {
+  width: 925px;
+}
+
+.section-end-hr {
+  width: 100%;
+  margin: 0px;
+}
+
+.challenges-section-img {
+  padding-top: 400px;
+}
+
+.section-challenges-wrapper {
+  background-color: rgba(255, 221, 214, 0.36);
+}
+
+.collaborations-section-img {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.ecosystemOne-section-img {
+  width: 299px;
+  height: 515px;
+  margin-left: 195px;
+  margin-top: -25px;
+}
+
+.ecosystemTwo-section-img {
+  width: 241px;
+  height: 372px;
+  margin-left: 36px;
+  margin-top: 150px;
+}
+
+.ecosystemThree-section-img {
+  width: 248px;
+  height: 375px;
+  margin-top: 145px;
+  margin-left: 90px;
+}
+.ecosystemFour-section-img {
+  width: 330px;
+  height: 320px;
+  margin-top: 150px;
+  margin-left: 70px;
+}
+
+.section-ecosystem-wrapper {
+  margin-bottom: 115px;
+}
+
+.recommendations-section-img {
+  width: 1072px;
+  height: 603px;
+  margin-top: 93px;
+  margin-left: -100px;
+}
+
+.section-actors-right-col {
+  padding-left: 100px;
+  margin-top: 230px;
+}
+
+.section-actors-right-first-block {
+  text-align: left;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #000000;
+  width: 950px;
+  font-family: 'Prompt';
+}
+
+.section-actors-right-last-block {
+  text-align: left;
+  font-size: 25px;
+  line-height: 30px;
+  font-family: 'Prompt';
+  letter-spacing: 0px;
+  color: #000000;
+  width: 371px;
+}
+
+.about-us-section-img-cdl {
+  margin-left: -47px;
+}
+
+.about-us-section-img-ONI {
+  margin-top: 60px;
+}
+.front-banner-download{
+background: #F2B2F5 0% 0% no-repeat padding-box;
+border: 2px solid #000000;
+opacity: 1;
+text-align: left;
+font-size: 31px;
+line-height: 41px;
+font-family:AlgolRevived;
+letter-spacing: 0px;
+color: #2B2E34;
+opacity: 1;
+outline: none;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+box-shadow: 10px 10px;
+margin-top: 38px;
+margin-right: 45px ;
+float: right;
+}
+.download-text{
+  margin-bottom: 0 !important;
+  padding-top:9.67px; 
+padding-right: 45.16px;
+padding-bottom:14.16px;
+padding-left:  44.3px;
+}
+
+.title-front-banner{
+  text-align: left;
+  font-size:100px;
+  line-height:100px;
+  font-family: ModeSeven;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 1000px;
+height: 418px;
+}
+
+.front-banner-img{
+  margin-top: -50px;
+  margin-left: -115px;
+}
+
+
+.front-banner-small-content{
+  background: #79FF74 0% 0% no-repeat padding-box;
+border: 2px solid #000000;
+opacity: 1;
+text-align: left;
+font-size: 22px;
+line-height: 30px;
+font-family:"Prompt";
+letter-spacing: 0px;
+color:black;
+opacity: 1;
+outline: none;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+box-shadow: 10px 10px #2B2E34;;
+margin-top: 38px;
+margin-right: 45px ;
+float: right;
+opacity: 1;
+width: 325px;
+margin-top: 150px;
+margin-right: -500px;
+padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+
+.opportunities-title{
+  opacity: 1;
+  border: 5px solid black;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  text-align: center;
+  line-height: 41px;
+  font-size: 31px;
+  /* width: 273px;
+height: 77px; */
+  letter-spacing: 0px;
+  color: black;
+  opacity: 1;
+  width: max-content;
+  padding-left: 36px;
+  padding-right: 39px;
+  padding-top: 12px;
+  padding-bottom: 14px;
+  margin: 30px;
+  box-shadow: 10px 10px;
+  font-weight: 900;
+  margin: auto;
+}
+
+.opportunities-section{
+  margin-top: 75px;
+}
+
+.front-banner-nav{
+  background: white 0% 0% no-repeat padding-box;
+  border: 2px solid #000000;
+  opacity: 1;
+  text-align: left;
+  font-size: 31px;
+  line-height: 41px;
+  font-family:AlgolRevived;
+  letter-spacing: 0px;
+  color: #2B2E34;
+  opacity: 1;
+  outline: none;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  box-shadow: 10px 10px;
+  margin-top: 38px;
+  margin-right: 45px ;
+  float: right;
+  display: flex;
+  }
+
+  .front-banner-button{
+border: none;
+background: none;
+outline: none;
+  }
+
+.front-banner-button:active, .front-banner-button:focus {
+    outline: none;
+    border: none;
+    }
+.container-front-banner-button{
+  height: 45px;
+  width: 46px;
+  /* background-color: #bbb; */
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+}
+
+.container-front-banner-button:hover, .container-front-banner-button:active  {
+  background-color: #79FF74;
+  border: 1px solid #000000;
+}
+
+.container-front-banner-button:focus, .container-front-banner-button:active  {
+  outline: none;
+  order: none;
+}
+
+.selected{
+  
+  background-color: #79FF74;
+  border: 1px solid #000000;
+}
+
+.active{
+  color:#fcfcfc;
+ }
