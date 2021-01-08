@@ -1,11 +1,3 @@
-@import url(//db.onlinewebfonts.com/c/a0cb693c715aaf804e67963c4d0d4d90?family=ModeSeven);
-
-@font-face {
-    font-family: AlgolRevived;
-    src: url('../fonts/AlgolRevived.otf') format('opentype');
-  }
-  
-
 .column-container-focus-area{
     text-align: left;
     font-size: 25px;
