@@ -213,7 +213,7 @@ class Home extends Component {
             </Col>
             <Col md={2} style={{ backgroundColor: '#E2EED5' }}>
               <div className="categories-folder">
-                <Folder className="categories-folder" background_color="white" caption="1978 - 1989" folderSize="small-folder">
+                <Folder className="categories-folder" background_color="white" caption="1978 - 1989" folderSize="small-folder" handleClick={() => this.showModal('rise-of-foss')}>
                   <div className={"normal-folder"}>
                   <p>Rise Of Free Software</p>
                   </div>
@@ -222,7 +222,7 @@ class Home extends Component {
             </Col>
             <Col md={2} style={{ backgroundColor: '#FEFFB2' }}>
               <div className="categories-folder">
-                <Folder className="categories-folder" background_color="white" caption="1991 - 1998" folderSize="small-folder">
+                <Folder className="categories-folder" background_color="white" caption="1991 - 1998" folderSize="small-folder" handleClick={() => this.showModal('rise-of-cb')}>
                   <div className={"normal-folder"}>
                   <p>Rise Of Community Businesses</p>
                   </div>
@@ -233,7 +233,7 @@ class Home extends Component {
               <Row style={{ height: "33.33vh" }}>
                 <Col md={{ span: 4, offset: 2 }}>
                   <div className="categories-folder-col">
-                    <Folder background_color="white" caption="1998 -2008" folderSize="small-folder">
+                    <Folder background_color="white" caption="1998 -2008" folderSize="small-folder" handleClick={() => this.showModal('big-tech')}>
                   <div className={"normal-folder"}>
                       <p>Big Tech Fights Back</p>
                       </div>
@@ -244,7 +244,7 @@ class Home extends Component {
               <Row style={{ backgroundColor: "#66FFD5", height: "33.33vh" }}>
                 <Col md={{ span: 4, offset: 2 }}>
                   <div className="categories-folder-col">
-                    <Folder background_color="white" caption="1999 - 2019" folderSize="small-folder">
+                    <Folder background_color="white" caption="1999 - 2019" folderSize="small-folder" handleClick={() => this.showModal('global-proliferation')}>
                   <div className={"normal-folder"}>
                       <p>Global Proliferation</p>
                       </div>
@@ -255,7 +255,7 @@ class Home extends Component {
               <Row style={{ backgroundColor: "#FFD78F", height: "33.33vh" }}>
                 <Col md={{ span: 4, offset: 2 }}>
                   <div className="categories-folder-col">
-                    <Folder background_color="white" caption="2001 - 2018" folderSize="small-folder">
+                    <Folder background_color="white" caption="2001 - 2018" folderSize="small-folder" handleClick={() => this.showModal('expansion-in-india')}>
                   <div className={"normal-folder"}>
                       <p>Expansion In India</p>
                       </div>
