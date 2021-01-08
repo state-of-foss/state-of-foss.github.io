@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../static/css/App.css';
 import Challenges from '../components/section-challenges';
 import Header from '../components/Header';
-import FocusAreaContent from "../components/FocusAreaContent";
+// import FocusAreaContent from "../components/FocusAreaContent";
 import { Link } from 'gatsby';
 import { Component } from 'react';
 
@@ -410,7 +410,7 @@ class Home extends Component {
               </p>
               <hr />
               <h2 className={'middle-block'}>
-                FOSS an ideal choice for developing open-source digital
+                FOSS is an ideal choice for developing open-source digital
                 ecosystems with a long-term vision
               </h2>
               <hr />
@@ -547,7 +547,7 @@ class Home extends Component {
           </Col>
         </div>
       </Row>
-      <FocusAreaContent />
+     
     </div>
   );
 };

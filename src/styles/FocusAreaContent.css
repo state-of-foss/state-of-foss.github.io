@@ -35,19 +35,50 @@
     display: flex;
 }
 
-.folder{
+.folder-1{
     width: 183px;
     height: 104px;
     cursor: pointer;
     font-size: 20px;
+    margin-left: -25px;
 }
 
-.card{
-    text-align: left;
-font-size:17px !important;
-line-height: 22px !important;
-letter-spacing: 0px;
+.folder-2{
+    width: 183px;
+    height: 104px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.folder-3{
+    width: 183px;
+    height: 104px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.foss-card-content{
+background-color: #fbf6f6;
+border-right: 2.5px solid #231F20;
+border-left: 2.5px solid #231F20;
+border-bottom: 2.5px solid #231F20;
+padding: 10px 17px 10px 10px;
+width: 95%;
+height: 92%;
+position: relative;
+font-family: 'AlgolRevived';
+/* color: #117a8b; */
+font-size: 17px;
+font-weight: 600;
 color: #0050EF;
-opacity: 1;
+line-height: 22px;
 }
 
+.card {
+    background-color: none;
+    width: 300px;
+    margin-top: 59px;
+    margin-left: -15px;
+}

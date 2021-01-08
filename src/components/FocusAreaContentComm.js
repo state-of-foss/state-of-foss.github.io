@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styles/FocusAreaContent.css';
-import Folder from '../components/Folder';
+import Folder from './Folder';
 import FossCommData from '../../static/data/foss_com_1.json';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import Card from '../components/Card';
+import Card from './Card';
 
-const FocusAreaContent = () => {
+const FocusAreaContentComm = () => {
 
   console.log(FossCommData)
       
@@ -23,7 +23,7 @@ const FocusAreaContent = () => {
             </span>
             there is a need for a long term vision of personal and professional development to retain and sustain FOSS communities.
           </p>
-          <div onClick={() => setValue(0)}  className={"folder"} >
+          <div onClick={() => setValue(0)}  className={"folder-1"} >
           <Folder background_color="white"> 
             <p>outreachey</p>
           </Folder>
@@ -50,9 +50,11 @@ const FocusAreaContent = () => {
             the need to be constantly “on”, that leads to burnout and
             resignations.
           </p>
-          <button className={"folder"}  onClick={() => setValue(1)}>
+          <div onClick={() => setValue(1)}  className={"folder-2"} >
+          <Folder background_color="white">
             <p>outreachey</p>
-          </button>
+          </Folder>
+          </div>
         </div>
         <div className={'column-container-focus-area'}>
           <p className={'right'}>
@@ -63,8 +65,8 @@ const FocusAreaContent = () => {
             and support from within the community resulting in more robust and
             sustainable projects.
           </p>
-          <div className={"folder-container"}>
-          <Folder background_color="white" className={"folder"}>
+          <div className={"folder-3"} onClick={() => setValue(2)} >
+          <Folder background_color="white">
             <p>outreachey</p>
           </Folder>
           </div>
@@ -74,4 +76,4 @@ const FocusAreaContent = () => {
   );
 };
 
-export default FocusAreaContent;
+export default FocusAreaContentComm;
