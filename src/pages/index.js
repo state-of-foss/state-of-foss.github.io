@@ -8,6 +8,7 @@ import Title from '../components/Title';
 import Circle from '../components/Circle';
 import Folder from '../components/Folder';
 import FolderContainer from '../components/FolderContainer';
+import FolderFocusArea from '../components/FolderFocusArea';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/App.css';
 import Challenges from '../components/section-challenges';
@@ -15,22 +16,28 @@ import Header from '../components/Header';
 import { Link } from 'gatsby';
 import { Component } from 'react';
 
+import image_inception_of_foss from '../../static/images/inception-of-foss.png';
+
 class Home extends Component {
     constructor() {
     super();
     this.state = {
-      show: false
+      show: false,
+      pageType: ""
     };
     this.showModal = this.showModal.bind(this);
     this.hideModal = this.hideModal.bind(this);
   }
 
-  showModal = () => {
+  showModal = (pageType) => {
+    console.log("Changing pageType", pageType);
     this.setState({ show: true });
+    this.setState({ pageType: pageType });
   };
 
   hideModal = () => {
     this.setState({ show: false });
+    this.setState({ pageType: "" });
   };
 
   render() {
@@ -178,8 +185,7 @@ class Home extends Component {
         </div>
       </Row>
 
-      <FolderContainer show={this.state.show} handleClose={this.hideModal} image="inception-of-foss">
-          <p>Modal</p>
+      <FolderContainer show={this.state.show} handleClose={this.hideModal} pageType={this.state.pageType }>
       </FolderContainer>
 
       <Row className="foss-categories-section" id="section-3">
@@ -198,7 +204,7 @@ class Home extends Component {
             </Row>
             <Col md={2} style={{ backgroundColor: "#FFDFD5" }}>
               <div className="categories-folder">
-                <Folder background_color="white" caption="1886 - 1978" folderSize="small-folder" handleClick={this.showModal}>
+                <Folder background_color="white" caption="1886 - 1978" folderSize="small-folder" handleClick={() => this.showModal('inception-of-foss')}>
                   <div className={"normal-folder"}>
                   <p>Inception Of FOSS</p>
                   </div>
@@ -207,7 +213,7 @@ class Home extends Component {
             </Col>
             <Col md={2} style={{ backgroundColor: '#E2EED5' }}>
               <div className="categories-folder">
-                <Folder className="categories-folder" background_color="white" caption="1978 - 1989" folderSize="small-folder">
+                <Folder className="categories-folder" background_color="white" caption="1978 - 1989" folderSize="small-folder" handleClick={() => this.showModal('rise-of-foss')}>
                   <div className={"normal-folder"}>
                   <p>Rise Of Free Software</p>
                   </div>
@@ -216,7 +222,7 @@ class Home extends Component {
             </Col>
             <Col md={2} style={{ backgroundColor: '#FEFFB2' }}>
               <div className="categories-folder">
-                <Folder className="categories-folder" background_color="white" caption="1991 - 1998" folderSize="small-folder">
+                <Folder className="categories-folder" background_color="white" caption="1991 - 1998" folderSize="small-folder" handleClick={() => this.showModal('rise-of-cb')}>
                   <div className={"normal-folder"}>
                   <p>Rise Of Community Businesses</p>
                   </div>
@@ -227,7 +233,7 @@ class Home extends Component {
               <Row style={{ height: "33.33vh" }}>
                 <Col md={{ span: 4, offset: 2 }}>
                   <div className="categories-folder-col">
-                    <Folder background_color="white" caption="1998 -2008" folderSize="small-folder">
+                    <Folder background_color="white" caption="1998 -2008" folderSize="small-folder" handleClick={() => this.showModal('big-tech')}>
                   <div className={"normal-folder"}>
                       <p>Big Tech Fights Back</p>
                       </div>
@@ -238,7 +244,7 @@ class Home extends Component {
               <Row style={{ backgroundColor: "#66FFD5", height: "33.33vh" }}>
                 <Col md={{ span: 4, offset: 2 }}>
                   <div className="categories-folder-col">
-                    <Folder background_color="white" caption="1999 - 2019" folderSize="small-folder">
+                    <Folder background_color="white" caption="1999 - 2019" folderSize="small-folder" handleClick={() => this.showModal('global-proliferation')}>
                   <div className={"normal-folder"}>
                       <p>Global Proliferation</p>
                       </div>
@@ -249,7 +255,7 @@ class Home extends Component {
               <Row style={{ backgroundColor: "#FFD78F", height: "33.33vh" }}>
                 <Col md={{ span: 4, offset: 2 }}>
                   <div className="categories-folder-col">
-                    <Folder background_color="white" caption="2001 - 2018" folderSize="small-folder">
+                    <Folder background_color="white" caption="2001 - 2018" folderSize="small-folder" handleClick={() => this.showModal('expansion-in-india')}>
                   <div className={"normal-folder"}>
                       <p>Expansion In India</p>
                       </div>
@@ -360,28 +366,28 @@ class Home extends Component {
           <Col sm={12} className="foss-focusarea-body">
             <Row>
               <Col md={2} style={{left: "-3%"}}>
-                <Folder background_color="#FFDDD6">
+                <Folder background_color="#FFDDD6" handleClick={() => this.showModal('page-foss-communities')}>
                   <div className={"normal-folder"}>
                   <p>FOSS & Communities</p>
                   </div>
                 </Folder>
               </Col>
               <Col md={{ span: 2, offset: 0 }} style={{left: "-3%"}}>
-                <Folder background_color="#FFD8FC">
+                <Folder background_color="#FFD8FC" handleClick={() => this.showModal('page-foss-education')}>
                   <div className={"normal-folder"}>
                   <p>FOSS & Education</p>
                   </div>
                 </Folder>
               </Col>
               <Col md={{ span: 2, offset: 0 }} style={{left: "-3%"}}>
-                <Folder background_color="#FCFFE0">
+                <Folder background_color="#FCFFE0" handleClick={() => this.showModal('page-foss-business')}>
                   <div className={"normal-folder"}>
                   <p>FOSS & Business</p>
                   </div>
                 </Folder>
               </Col>
               <Col md={{ span: 2, offset: 0 }} style={{left: "-3%"}}>
-                <Folder background_color="#AAD3FF">
+                <Folder background_color="#AAD3FF" handleClick={() => this.showModal('page-foss-government')}>
                   <div className={"normal-folder"}>
                   <p>FOSS & Government</p>
                   </div>
