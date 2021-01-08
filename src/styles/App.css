@@ -1,10 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/a0cb693c715aaf804e67963c4d0d4d90?family=ModeSeven);
-@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
-
-@font-face {
-  font-family: AlgolRevived;
-  src: url('../fonts/AlgolRevived.otf') format('opentype');
-}
+@import '../fonts/fonts.css';
 
 #gatsby-focus-wrapper {
   overflow-x: hidden;
@@ -28,7 +22,7 @@
 .first-last-block {
   text-align: left;
   font-size: 25px;
-  font-family: 'Prompt';
+  font-family: 'Nunito';
   font-weight: 300;
   letter-spacing: 0px;
   color: #000000;
@@ -42,7 +36,7 @@
 .last-block {
   text-align: left;
   font-size: 25px;
-  font-family: 'Prompt';
+  font-family: 'Nunito';
   font-weight: 300;
   letter-spacing: 0px;
   color: #000000;
@@ -139,7 +133,7 @@ span {
   font-size: 25px;
   line-height: 40px;
   width: 980px;
-  font-family: 'Prompt';
+  font-family: 'Nunito';
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
@@ -169,7 +163,7 @@ height: 77px; */
 
 .about-us-left-content {
   margin-left: 30px;
-  font-family: 'Prompt';
+  font-family: 'Nunito';
   text-align: left;
   font-size: 25px;
   line-height: 30px;
@@ -179,7 +173,7 @@ height: 77px; */
 }
 
 .about-us-right-content {
-  font-family: 'Prompt';
+  font-family: 'Nunito';
   text-align: left;
   font-size: 25px;
   line-height: 30px;
@@ -249,7 +243,7 @@ height: 77px; */
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
-  font-family: 'Prompt';
+  font-family: 'Nunito';
   width: 751px;
   display: inline-block;
 }
@@ -345,14 +339,14 @@ height: 77px; */
   letter-spacing: 0px;
   color: #000000;
   width: 950px;
-  font-family: 'Prompt';
+  font-family: 'Nunito';
 }
 
 .section-actors-right-last-block {
   text-align: left;
   font-size: 25px;
   line-height: 30px;
-  font-family: 'Prompt';
+  font-family: 'Nunito';
   letter-spacing: 0px;
   color: #000000;
   width: 371px;
@@ -365,82 +359,80 @@ height: 77px; */
 .about-us-section-img-ONI {
   margin-top: 60px;
 }
-.front-banner-download{
-background: #F2B2F5 0% 0% no-repeat padding-box;
-border: 2px solid #000000;
-opacity: 1;
-text-align: left;
-font-size: 31px;
-line-height: 41px;
-font-family:AlgolRevived;
-letter-spacing: 0px;
-color: #2B2E34;
-opacity: 1;
-outline: none;
--moz-border-radius: 0px;
--webkit-border-radius: 0px;
-border-radius: 0px;
-box-shadow: 10px 10px;
-margin-top: 38px;
-margin-right: 45px ;
-float: right;
+.front-banner-download {
+  background: #f2b2f5 0% 0% no-repeat padding-box;
+  border: 2px solid #000000;
+  opacity: 1;
+  text-align: left;
+  font-size: 31px;
+  line-height: 41px;
+  font-family: AlgolRevived;
+  letter-spacing: 0px;
+  color: #2b2e34;
+  opacity: 1;
+  outline: none;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  box-shadow: 10px 10px;
+  margin-top: 38px;
+  margin-right: 45px;
+  float: right;
 }
-.download-text{
+.download-text {
   margin-bottom: 0 !important;
-  padding-top:9.67px; 
-padding-right: 45.16px;
-padding-bottom:14.16px;
-padding-left:  44.3px;
+  padding-top: 9.67px;
+  padding-right: 45.16px;
+  padding-bottom: 14.16px;
+  padding-left: 44.3px;
 }
 
-.title-front-banner{
+.title-front-banner {
   text-align: left;
-  font-size:100px;
-  line-height:100px;
+  font-size: 100px;
+  line-height: 100px;
   font-family: ModeSeven;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
   width: 1000px;
-height: 418px;
+  height: 418px;
 }
 
-.front-banner-img{
+.front-banner-img {
   margin-top: -50px;
   margin-left: -115px;
 }
 
-
-.front-banner-small-content{
-  background: #79FF74 0% 0% no-repeat padding-box;
-border: 2px solid #000000;
-opacity: 1;
-text-align: left;
-font-size: 22px;
-line-height: 30px;
-font-family:"Prompt";
-letter-spacing: 0px;
-color:black;
-opacity: 1;
-outline: none;
--moz-border-radius: 0px;
--webkit-border-radius: 0px;
-border-radius: 0px;
-box-shadow: 10px 10px #2B2E34;;
-margin-top: 38px;
-margin-right: 45px ;
-float: right;
-opacity: 1;
-width: 325px;
-margin-top: 150px;
-margin-right: -500px;
-padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 10px;
+.front-banner-small-content {
+  background: #79ff74 0% 0% no-repeat padding-box;
+  border: 2px solid #000000;
+  opacity: 1;
+  text-align: left;
+  font-size: 22px;
+  line-height: 30px;
+  font-family: 'Prompt';
+  letter-spacing: 0px;
+  color: black;
+  opacity: 1;
+  outline: none;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  box-shadow: 10px 10px #2b2e34;
+  margin-top: 38px;
+  margin-right: 45px;
+  float: right;
+  opacity: 1;
+  width: 325px;
+  margin-top: 150px;
+  margin-right: -500px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
-
-.opportunities-title{
+.opportunities-title {
   opacity: 1;
   border: 5px solid black;
   background: #ffffff 0% 0% no-repeat padding-box;
@@ -463,20 +455,20 @@ height: 77px; */
   margin: auto;
 }
 
-.opportunities-section{
+.opportunities-section {
   margin-top: 75px;
 }
 
-.front-banner-nav{
+.front-banner-nav {
   background: white 0% 0% no-repeat padding-box;
   border: 2px solid #000000;
   opacity: 1;
   text-align: left;
   font-size: 31px;
   line-height: 41px;
-  font-family:AlgolRevived;
+  font-family: AlgolRevived;
   letter-spacing: 0px;
-  color: #2B2E34;
+  color: #2b2e34;
   opacity: 1;
   outline: none;
   -moz-border-radius: 0px;
@@ -484,22 +476,23 @@ height: 77px; */
   border-radius: 0px;
   box-shadow: 10px 10px;
   margin-top: 38px;
-  margin-right: 45px ;
+  margin-right: 45px;
   float: right;
   display: flex;
-  }
+}
 
-  .front-banner-button{
-border: none;
-background: none;
-outline: none;
-  }
+.front-banner-button {
+  border: none;
+  background: none;
+  outline: none;
+}
 
-.front-banner-button:active, .front-banner-button:focus {
-    outline: none;
-    border: none;
-    }
-.container-front-banner-button{
+.front-banner-button:active,
+.front-banner-button:focus {
+  outline: none;
+  border: none;
+}
+.container-front-banner-button {
   height: 45px;
   width: 46px;
   /* background-color: #bbb; */
@@ -508,22 +501,23 @@ outline: none;
   margin: 10px;
 }
 
-.container-front-banner-button:hover, .container-front-banner-button:active  {
-  background-color: #79FF74;
+.container-front-banner-button:hover,
+.container-front-banner-button:active {
+  background-color: #79ff74;
   border: 1px solid #000000;
 }
 
-.container-front-banner-button:focus, .container-front-banner-button:active  {
+.container-front-banner-button:focus,
+.container-front-banner-button:active {
   outline: none;
   order: none;
 }
 
-.selected{
-  
-  background-color: #79FF74;
+.selected {
+  background-color: #79ff74;
   border: 1px solid #000000;
 }
 
-.active{
-  color:#fcfcfc;
- }
+.active {
+  color: #fcfcfc;
+}

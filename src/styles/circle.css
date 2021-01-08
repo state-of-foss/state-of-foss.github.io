@@ -1,8 +1,3 @@
-@font-face {
-  font-family: AlgolRevived;
-  src: url('../../static/fonts/AlgolRevived.otf') format('opentype');
-}
-
 .foss-circle {
   padding: 10px;
   margin-bottom: 30px;
