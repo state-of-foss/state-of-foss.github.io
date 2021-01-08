@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@fontsource/nunito": "^4.1.0",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^4.5.3",
     "gatsby": "^2.25.2",
     "gatsby-source-filesystem": "^2.4.2",
     "gatsby-transformer-remark": "^2.9.2",
