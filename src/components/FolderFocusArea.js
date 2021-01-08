@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import close from '../../static/images/close.png';
-import inception_of_foss from '../../static/images/inception-of-foss.png';
+import arrow from '../../static/images/arrow.png';
+import arrow_back from '../../static/images/back.png';
+import foss_community from '../../static/images/foss-community.png';
+import foss_community_flow from '../../static/images/foss-community-flow.png';
+
 
 
 export default class FolderFocusArea extends Component {
@@ -19,7 +23,7 @@ export default class FolderFocusArea extends Component {
       "page-foss-government": 4
     }
 
-    this.image_map = [inception_of_foss, close, inception_of_foss, close];
+    this.image_map = [foss_community, foss_community_flow, foss_community, close];
   }
 
   nextStep = () => {
@@ -40,10 +44,10 @@ export default class FolderFocusArea extends Component {
   return (
       <div>
         {this.state.step > 1 &&
-          <img className="modal-previous" src={close} onClick={this.previousStep} />
+          <img className="modal-previous" src={arrow_back} onClick={this.previousStep} />
         }
         {this.state.step < this.image_map.length &&
-          <img className="modal-next" src={close} onClick={this.nextStep} />
+          <img className="modal-next" src={arrow} onClick={this.nextStep} />
         }
           <img className={"folder-image"} src={this.image_map[this.state.step - 1]} />
       </div>
