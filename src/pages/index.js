@@ -343,15 +343,15 @@ class Home extends Component {
         <hr className={'section-end-hr'}></hr>
       </div>
 
-      <div className={'section-recommendations-wrapper'} id="section-6">
+      <Row className={'section-recommendations-wrapper'} id="section-6">
         <div className={'section-container'}>
           <Row>
-            <Col sm={3}>
+            <Col sm={12} md={12} lg={3} className={'left-col'}>
               <h2 className={'text-left-1'}>
                 Recommendations to step up India’s FOSS game
               </h2>
             </Col>
-            <Col sm={9} className={'right-col'}>
+            <Col sm={12} md={12} lg={{ span: 8, offset: 1 }}>
               <p className={'first-last-block'}>
                 To address some of the above mentioned challenges, we propose
                 4Cs for FOSS growth for various stakeholders
@@ -364,7 +364,7 @@ class Home extends Component {
             </Col>
           </Row>
         </div>
-      </div>
+      </Row>
 
       <Row className="foss-focusarea-section" id="section-7">
         <div className="foss-container">

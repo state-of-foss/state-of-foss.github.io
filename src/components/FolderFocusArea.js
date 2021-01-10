@@ -27,7 +27,7 @@ export default class FolderFocusArea extends Component {
     constructor(props) {
     super(props);
     this.state = {
-      folder: "page-foss-communities",
+      folder: "",
       step: 0
     };
     this.nextStep = this.nextStep.bind(this);
@@ -52,6 +52,7 @@ export default class FolderFocusArea extends Component {
   componentWillReceiveProps(nextProps) {
   if(nextProps.folder) {
     this.setState({step: 0});
+    this.setState({folder: ""});
     this.setState({folder: nextProps.folder});
   }
 }
@@ -59,14 +60,18 @@ export default class FolderFocusArea extends Component {
   render() {
   return (
       <div>
-        {this.state.step > 1 &&
+        {this.state.step > 0 &&
           <img className="modal-previous" alt="modal-previous" src={arrow_back} onClick={this.previousStep} />
         }
         {this.state.step < 3 &&
           <img className="modal-next" alt="modal-next" src={arrow} onClick={this.nextStep} />
         }
         {this.state.step < 3 ? (
+          <div>
+          {this.state.folder != "" && 
           <img className="folder-image-nested" alt="folder" src={this.page_map[this.state.folder][this.state.step]} />
+        }
+        </div>
         ) : (
           <div className={"folder-component-view"}>
             { this.page_map[this.state.folder][this.state.step] }

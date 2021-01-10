@@ -34,7 +34,6 @@
   line-height: 30px;
   opacity: 1;
   width: 707px;
-  height: 123px;
   margin-bottom: 30px;
 }
 
@@ -323,10 +322,10 @@ height: 77px; */
 }
 
 .recommendations-section-img {
-  width: 1072px;
-  height: 603px;
+  width: 100%;
+  height: auto;
   margin-top: 93px;
-  margin-left: -100px;
+  margin-left: -200px;
 }
 
 .section-actors-right-col {
@@ -560,7 +559,7 @@ height: 77px; */
   }
 
   .normal-folder {
-    font-size: 2rem !important;
+    font-size: 1.6rem !important;
     padding: 26% 30%;
     text-align: left;
   }
@@ -596,6 +595,8 @@ height: 77px; */
   
   .text-left-1 {
     padding-left: 45px;
+    overflow-wrap: break-word;
+    width: 99%;
   }
 
   .right-col {
@@ -609,6 +610,16 @@ height: 77px; */
   .folder-image {
     transform: rotate(90deg);
     object-fit: contain;
+  }
+
+  .first-last-block {
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 80% !important;
+  }
+
+  .recommendations-section-img {
+    margin-left: auto !important;
   }
 }
 
