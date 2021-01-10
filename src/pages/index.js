@@ -195,7 +195,7 @@ class Home extends Component {
       <Row className="foss-categories-section" id="section-3">
         <Col sm={12}></Col>
         <Col sm={12} className="foss-categories-body">
-          <Row style={{ height: "100vh" }}>
+          <Row>
             <Row className={"foss-categories-text"}>
               <Col sm={12} md={6} lg={5} className={'left-col'}>
                 <h2 className={'title-advancement'}>
@@ -272,13 +272,13 @@ class Home extends Component {
         </Col>
       </Row>
 
-      <div className={'section-ecosystem-wrapper'} id="section-4">
+      <Row className={'section-ecosystem-wrapper'} id="section-4">
         <div className={'section-container'}>
           <Row>
-            <Col sm={3} className={'left-col'}>
+            <Col sm={12} md={3} lg={3} className={'left-col'}>
               <h2 className={'text-left-1'}>Indian FOSS Ecosystem</h2>
             </Col>
-            <Col sm={8} className={'right-col'}>
+            <Col sm={12} md={8} lg={8} className={'right-col'}>
               <p className={'right-text-ecosystem'}>
                 As we look ahead to chart where the FOSS movement in India can
                 go, we must acknowledge the challenges and opportunities that
@@ -317,7 +317,7 @@ class Home extends Component {
             />
           </Row>
         </div>
-      </div>
+      </Row>
 
       <div className={'section-challenges-wrapper'} id="section-5">
         <div className={'section-container'}>
@@ -501,7 +501,8 @@ class Home extends Component {
           <br />
 
           <Row>
-            <Col sm={8}>
+
+            <Col sm={12} lg={8}>
               <p className={'about-us-left-content'}>
                 <h1 className={'org-name'}>CIVICDATALAB</h1>
                 <br />
@@ -513,6 +514,10 @@ class Home extends Component {
                 tanks, media houses, universities etc to enable data-driven
                 decision making at scale.
               </p>
+              </Col>
+              </Row>
+              <Row>
+            <Col sm={12} lg={8}>
               <a href="https://civicdatalab.in/">
               <img
                 src={require('../../static/images/cdl-logo.png')}
@@ -521,7 +526,7 @@ class Home extends Component {
               />
               </a>
             </Col>
-            <Col sm={4} className={"ONI-section"}>
+            <Col sm={12} lg={4} className={"ONI-section"}>
               <p className={'about-us-right-content'}>
                 
                 Supported By

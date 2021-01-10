@@ -4,6 +4,7 @@
   overflow-x: hidden;
 }
 .section-container {
+  width: 100%;
   margin-left: 138px;
   padding-top: 80px;
 }
@@ -82,8 +83,7 @@ hr {
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
-  width: 448px;
-  height: 369px;
+  width: 100%;
   line-height: 50px;
 }
 
@@ -137,7 +137,6 @@ span {
   text-align: left;
   font-size: 25px;
   line-height: 40px;
-  width: 980px;
   font-family: 'Nunito';
   letter-spacing: 0px;
   color: #000000;
@@ -167,14 +166,13 @@ height: 77px; */
 }
 
 .about-us-left-content {
-  margin-left: 30px;
+  margin-left: 20px;
   font-family: 'Nunito';
   text-align: left;
   font-size: 25px;
   line-height: 30px;
   letter-spacing: 0px;
   color: #000000;
-  width: 1029px;
 }
 
 .about-us-right-content {
@@ -185,9 +183,7 @@ height: 77px; */
   letter-spacing: 0px;
   color: #000000;
   /* margin-left: 330px; */
-  width: 613px;
   font-weight: 900;
-  margin-left: 15px;
 }
 .org-name {
   font-size: 40px !important;
@@ -582,11 +578,37 @@ height: 77px; */
   }
 
   .about-us-title {
-    margin-left: 20px;
+    margin-left: 20px !important;
   }
 
   .download-folder {
     font-size: 19px;
+  }
+
+  .section-container {
+    margin-left: auto !important;
+  }
+
+  .ONI-section {
+    margin-top: auto !important;
+    margin-left: 15px;
+  }
+  
+  .text-left-1 {
+    padding-left: 45px;
+  }
+
+  .right-col {
+    padding-left: 30px !important;
+  }
+
+  .right-text-ecosystem {
+    padding: 40px;
+  }
+
+  .folder-image {
+    transform: rotate(90deg);
+    object-fit: contain;
   }
 }
 
@@ -600,5 +622,5 @@ height: 77px; */
 }
 
 .ONI-section{
-  margin-top: 283px;
+  margin-top: 60px;
 }
