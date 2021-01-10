@@ -201,7 +201,7 @@ height: 77px; */
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
-  width: 536px;
+  width: 100%;
   line-height: 50px;
 }
 
@@ -524,6 +524,70 @@ height: 77px; */
 
 .active {
   color: #fcfcfc;
+}
+
+.foss-categories-text {
+  position: absolute;
+  margin: 100px;
+  z-index: 1;
+}
+
+.categories-folder-rcontainer {
+  height: 33.33vh;
+}
+
+
+@media only screen and (max-width: 820px) {
+  .foss-categories-text {
+      margin: 50px 5px 5px 5px !important;
+  }
+
+  .categories-folder {
+    margin-top: 5vh !important;
+  }
+
+  .categories-folder-rcontainer {
+    height: auto !important;
+  }
+
+  .foss-focusarea-body {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .title-advancement {
+    text-align: center;
+  }
+
+  .about-advancement {
+    text-align: center;
+  }
+
+  .normal-folder {
+    font-size: 2rem !important;
+    padding: 26% 30%;
+    text-align: left;
+  }
+
+  .folder-caption {
+    margin: -30% 40% !important;
+  }
+
+  .opportunities-title {
+    margin: auto 20px;
+  }
+
+  .foss-social-media {
+    margin-left: 20px;
+  }
+
+  .about-us-title {
+    margin-left: 20px;
+  }
+
+  .download-folder {
+    font-size: 19px;
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {

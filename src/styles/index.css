@@ -84,6 +84,10 @@ body {
     width: 80px;
 }
 
+.categories-folder-first {
+    margin-top: 40vh;
+}
+
 .categories-folder {
     margin-top: 40vh;
 }
@@ -102,7 +106,7 @@ body {
     padding-top: 70px;
     color: #000000;
     opacity: 1;
-    width: 536px;
+    width: 100%;
   }
 
 li {
