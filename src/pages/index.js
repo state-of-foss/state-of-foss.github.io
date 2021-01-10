@@ -172,7 +172,7 @@ class Home extends Component {
                 alt="actors-section"
               />
             </Col>
-            <Col sm={9} className={'section-actors-right-col'}>
+            <Col sm={12} lg={9} className={'section-actors-right-col'}>
               <p className={'section-actors-right-first-block'}>
                 However, India still lags behind the global landscape in
                 building sustainable home-grown projects and needs a strategic
