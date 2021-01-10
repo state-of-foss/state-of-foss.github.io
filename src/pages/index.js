@@ -194,8 +194,8 @@ class Home extends Component {
         <Col sm={12}></Col>
         <Col sm={12} className="foss-categories-body">
           <Row style={{ height: "100vh" }}>
-            <Row style={{ position: "absolute", zIndex: 1, margin: "100px" }}>
-              <Col sm={3} className={'left-col'}>
+            <Row className={"foss-categories-text"}>
+              <Col sm={12} md={6} lg={5} className={'left-col'}>
                 <h2 className={'title-advancement'}>
                   Chronicling the FOSS movement in India
               </h2>
@@ -205,7 +205,7 @@ class Home extends Component {
               </Col>
             </Row>
             <Col md={2} style={{ backgroundColor: "#FFDFD5" }}>
-              <div className="categories-folder">
+              <div className="categories-folder-first">
                 <Folder background_color="white" caption="1886 - 1978" folderSize="small-folder" handleClick={() => this.showModal('inception-of-foss')}>
                   <div className={"normal-folder"}>
                   <p>Inception Of FOSS</p>
@@ -232,7 +232,7 @@ class Home extends Component {
               </div>
             </Col>
             <Col md={6} style={{ backgroundColor: "#B8FAFF" }}>
-              <Row style={{ height: "33.33vh" }}>
+              <Row className={"categories-folder-rcontainer"}>
                 <Col md={{ span: 4, offset: 2 }}>
                   <div className="categories-folder-col">
                     <Folder background_color="white" caption="1998 -2008" folderSize="small-folder" handleClick={() => this.showModal('big-tech')}>
@@ -243,7 +243,7 @@ class Home extends Component {
                   </div>
                 </Col>
               </Row>
-              <Row style={{ backgroundColor: "#66FFD5", height: "33.33vh" }}>
+              <Row className={"categories-folder-rcontainer"} style={{ backgroundColor: "#66FFD5" }}>
                 <Col md={{ span: 4, offset: 2 }}>
                   <div className="categories-folder-col">
                     <Folder background_color="white" caption="1999 - 2019" folderSize="small-folder" handleClick={() => this.showModal('global-proliferation')}>
@@ -254,7 +254,7 @@ class Home extends Component {
                   </div>
                 </Col>
               </Row>
-              <Row style={{ backgroundColor: "#FFD78F", height: "33.33vh" }}>
+              <Row className={"categories-folder-rcontainer"} style={{ backgroundColor: "#FFD78F" }}>
                 <Col md={{ span: 4, offset: 2 }}>
                   <div className="categories-folder-col">
                     <Folder background_color="white" caption="2001 - 2018" folderSize="small-folder" handleClick={() => this.showModal('expansion-in-india')}>
