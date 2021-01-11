@@ -85,11 +85,13 @@ body {
 }
 
 .categories-folder-first {
-    margin-top: 40vh;
+    /* margin-top: 40vh; */
+    margin-top: 380px;
 }
 
 .categories-folder {
-    margin-top: 40vh;
+    /* margin-top: 40vh; */
+    margin-top: 380px;
 }
 
 .categories-folder-col {
@@ -169,7 +171,8 @@ li {
 
 .modal-previous {
     top: 45vh;
-    width: 2%;
+    width: auto;
+    height: 5vh;
     left: 0;
     margin: 50px;
     z-index: 2;

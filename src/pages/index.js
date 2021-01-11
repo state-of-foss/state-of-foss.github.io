@@ -259,7 +259,7 @@ class Home extends Component {
               <Row className={"categories-folder-rcontainer"} style={{ backgroundColor: "#FFD78F" }}>
                 <Col md={{ span: 4, offset: 2 }}>
                   <div className="categories-folder-col">
-                    <Folder background_color="white" caption="2001 - 2018" folderSize="small-folder" handleClick={() => this.showModal('expansion-in-india')}>
+                    <Folder background_color="white" caption="2001-present" folderSize="small-folder" handleClick={() => this.showModal('expansion-in-india')}>
                   <div className={"normal-folder"}>
                       <p>Expansion In India</p>
                       </div>
@@ -448,8 +448,8 @@ class Home extends Component {
         </div>
       </div>
 
-      <Row className="foss-download-section" >
-        <div className="foss-container" id="section-9">
+      <Row className="foss-download-section" id="download-section">
+        <div className="foss-container">
           <Col sm={12}>
             <Row>
               <div className={'about-us-title'}>DOWNLOAD THE REPORT</div>
@@ -462,7 +462,7 @@ class Home extends Component {
                   <div className={"download-folder"}>
                   <p>The State of Free & Open Source Software in India</p>
                   <p>
-                    <a className="foss-link" href="/the-state-of-foss-report-executive-summary.pdf">
+                    <a className="foss-link" href="/the-state-of-foss-report-executive-summary.pdf" target="_blank">
                       Executive Summary
                     </a>
                   </p>
@@ -474,8 +474,8 @@ class Home extends Component {
                   <div className={"download-folder"}>
                   <p>The State of Free & Open Source Software in India</p>
                   <p>
-                    <a className="foss-link" href="/the-state-of-foss-report.pdf">
-                      Entire Report
+                    <a className="foss-link" href="/the-state-of-foss-report.pdf" target="_blank">
+                      Full Report
                     </a>
                   </p>
                   </div>

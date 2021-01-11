@@ -574,9 +574,9 @@ height: 77px; */
   z-index: 1;
 }
 
-.categories-folder-rcontainer {
+/*.categories-folder-rcontainer {
   height: 33.33vh;
-}
+}*/
 
 @media only screen and (max-width: 1300px) {
   .download-folder {
@@ -584,12 +584,17 @@ height: 77px; */
   }
 
   .folder-caption {
-    margin: -30% 28%;
+    margin: -30% 26%;
   }
 
   .hide-text-md {
     display: none;
   }
+
+  .categories-folder, .categoires-folder-first {
+    /* margin-top: 40vh; */
+    margin-top: 320px;
+}
 }
 
 
@@ -637,11 +642,13 @@ height: 77px; */
   }
 
   .title-advancement {
-    text-align: center;
+    text-align: left;
+    padding: 15px;
   }
 
   .about-advancement {
-    text-align: center;
+    text-align: left;
+    padding: 15px;
   }
 
   .normal-folder {
@@ -739,7 +746,7 @@ height: 77px; */
     width: auto !important;
   }
   .categories-folder-first {
-    margin-top: 70vh !important;
+    margin-top: 50vh !important;
   }
 
 }

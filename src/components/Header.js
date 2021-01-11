@@ -7,8 +7,8 @@ function Header() {
     <>
       <img src={require('../../static/images/front-img-1.png')} alt="nav-logo"  className="front-page-img-1"/>
 
-      <button className={'front-banner-download'}>
-      <Link to="/#section-9" className={'download-text'}>DOWNLOAD</Link>
+      <button className={'front-banner-download'} onClick={() => {document.getElementById('download-section').scrollIntoView()}}>
+      <p className={'download-text'}>DOWNLOAD</p>
       </button>
 
       <div className={'front-banner-nav'}>
