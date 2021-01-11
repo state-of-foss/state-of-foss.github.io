@@ -12,14 +12,14 @@
 }
 
 .foss-cc-by-content{
-  margin-left: -15px;
+  margin-left: 9px;
   font-size: 16px;
   font-family: "Nunito";
   justify-content: center;
   margin-top: 20px;
 }
 .foss-cc-by-img-1{
-  margin-left: 14px;
+  margin-left: 35px;
   margin-top: -10px;
   width: 40px;
 }
@@ -344,7 +344,7 @@ span {
 }
 
 .recommendations-section-img {
-  width: 100%;
+  width: 110%;
   height: auto;
   margin-top: 93px;
 }
@@ -399,6 +399,9 @@ span {
   margin-right: 45px;
   float: right;
   transition: transform 0.5s ease-in-out;
+  position: fixed;
+  z-index: 5;
+  right: 0;
 }
 
 .front-banner-download:hover {
@@ -591,7 +594,7 @@ height: 77px; */
   .foss-container {
     width: 98.5%;
     padding-right: 45px;
-    padding-left: 25px;
+   
   }
 }
 
@@ -782,11 +785,11 @@ height: 77px; */
   }
 
   .foss-cc-by-img-1{
-    width: 10vw;
+   
     margin-top: 3px;
   }
   .foss-cc-by-img-2{
-    width: 10vw;
+  
     margin-top: 3px;
   }
   .title-advancement {
@@ -879,10 +882,10 @@ height: 77px; */
     margin-left: 15px;
   }
   .middle-block{
-    width: 80vw;
+   
     font-size: 34px;
     line-height: 44px;
-    height: 41vh;
+ 
   }
   .last-block{
   width: 91vw;
@@ -890,7 +893,7 @@ height: 77px; */
   }
   .first-last-block-1{
     margin-top: -82px;
-    width: 91vw;
+  
     font-size: 19px;
     
   }
@@ -912,7 +915,7 @@ height: 77px; */
   }
 
   .text-left{
-    width: 103vw;
+  
     font-size: 38px;
   }
 
@@ -1307,4 +1310,10 @@ margin-left: 20px;
 .download-folder-container {
   left: -14%;
   position: relative;
+}
+
+@media only screen and (max-device-width: 1600px){
+  .challenges-section-img{
+    display: none;
+  }
 }
