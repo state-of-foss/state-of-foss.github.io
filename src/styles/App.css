@@ -1,5 +1,9 @@
 @import '../fonts/fonts.css';
 
+html {
+  scroll-behavior: smooth;
+}
+
 #gatsby-focus-wrapper {
   overflow-x: hidden;
 }
@@ -1284,6 +1288,10 @@ margin-left: 20px;
 
 .ONI-section{
   margin-top: 50px;
+}
+
+.footer-cc {
+  margin-left: -30px;
 }
 
 .present-margin {

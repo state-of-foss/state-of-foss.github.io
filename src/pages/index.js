@@ -609,7 +609,7 @@ class Home extends Component {
                 ></img>
               </a>
             </Col>
-            <Col>
+            <Col className={"footer-cc"}>
               <p className={'foss-cc-by-content'}>The State of Foss in India by<a href='https://civicdatalab.in/'
                                                                                   target='_blank'
                                                                                   className={'cdl-link'}> CivicDataLab</a> is
