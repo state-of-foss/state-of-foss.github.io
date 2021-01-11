@@ -17,7 +17,6 @@ import FocusAreaContent from "../components/FocusAreaContentEdu";
 import { Link } from 'gatsby';
 import { Component } from 'react';
 
-import image_inception_of_foss from '../../static/images/inception-of-foss.png';
 
 class Home extends Component {
     constructor() {
@@ -573,7 +572,7 @@ class Home extends Component {
             </a>
           </Col>  
           <Col>
-          <p className={"foss-cc-by-content"}>The State of Foss in India by<a href="https://civicdatalab.in/" target="_blank"  className={"cdl-link"}> CivicDataLab </a>is licensed under <a href="https://creativecommons.org/licenses/by/4.0?ref=chooser-v1" target="_blank"  className={"cdl-link"}>CC BY 4.0 </a> 
+          <p className={"foss-cc-by-content"}>The State of Foss in India by<a href="https://civicdatalab.in/" target="_blank"  className={"cdl-link"}> CivicDataLab</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0?ref=chooser-v1" target="_blank"  className={"cdl-link"}>CC BY 4.0 </a> 
           <img
               className="foss-cc-by-img-1"
               src="images/cc-1.svg"

@@ -1281,3 +1281,7 @@ margin-left: 20px;
 .ONI-section{
   margin-top: 60px;
 }
+
+.folder-width-full {
+  width: 100% !important;
+}
