@@ -970,6 +970,7 @@ height: 77px; */
 .advancement-right-last-section{
   font-size: 53px;
   width: 70vw;
+  margin-left: -14px;
 }
 .section-actors-right-first-block{
   width: 53vw;
@@ -1043,6 +1044,12 @@ margin-left: 20px;
   margin-left: 100px;
   padding-left: 20px;
 }
+.front-banner-nav{
+  margin-top: 10px;
+}
+.front-banner-download{
+  margin-top: 18px;
+}
 }
 
 @media only screen and (min-device-width: 1300px) and (max-device-width: 1400px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -1050,7 +1057,9 @@ margin-left: 20px;
     height: 792px;
   
   }
-  
+  .front-banner-download{
+    margin-top: 18px;
+  }
   .section-container{
     padding-top: 15px;
     margin-left: 50px;
@@ -1071,6 +1080,7 @@ margin-left: 20px;
   .advancement-right-last-section{
     font-size: 53px;
     width: 50vw;
+    margin-left: -14px;
   }
   .section-actors-right-first-block{
     width: 53vw;
@@ -1148,6 +1158,9 @@ margin-left: 20px;
     .section-front-banner-wrapper{
       height: 792px;
     
+    }
+    .front-banner-download{
+      height: 58px;
     }
     
     .section-container{
@@ -1230,6 +1243,38 @@ margin-left: 20px;
     .collaborations-section-img{
       margin-left: 0px;
       margin-top: 0px;
+    }
+    .ecosystemOne-section-img {
+      margin-left: 100px;
+    }
+    
+    .ecosystemTwo-section-img {
+    margin-left: 20px;
+    }
+    
+    .ecosystemThree-section-img {
+      margin-left: 20px;
+    }
+    .ecosystemFour-section-img {
+      margin-left: 20px;
+    }
+    .foss-cc-by-content{
+      margin-top: 50px;
+    }
+    .ONI-section{
+      margin-top: 25px;
+    }
+    .about-us-right-content{
+      margin-left: 10px;
+    }
+    .front-banner-nav{
+      margin-top: 10px;
+    }
+    .foss-container{
+      margin-left: 84px;
+    }
+    .title-advancement{
+      margin-left: -45px;
     }
     }
 
