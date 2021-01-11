@@ -294,7 +294,7 @@ class Home extends Component {
               </p>
             </Col>
           </Row>
-          <Row>
+          <Row className={'foss-ecosystem-images'}>
             <img
               src={require('../../static/images/ecosystemOne.png')}
               className='ecosystemOne-section-img'
@@ -418,7 +418,7 @@ class Home extends Component {
               </h2>
             </Col>
             <Col sm={9} className={'right-col'}>
-              <p className={'first-last-block'}>
+              <p className={'first-last-block-1'}>
                 The current pandemic has amplified FOSS’s importance due to the
                 movement’s ability to bring diverse actors together to build,
                 localize and deploy crisis response solutions effectively
@@ -485,7 +485,7 @@ class Home extends Component {
           </Col>
         </div>
       </Row>
-      <hr className={'section-end-hr'}></hr>
+     
 
       {/* <div className={'section-front-page-wrapper'}>
         <img src={require('../../static/images/front-img-1.png')} />
@@ -504,9 +504,8 @@ class Home extends Component {
 
             <Col sm={12} lg={8}>
               <p className={'about-us-left-content'}>
-                <h1 className={'org-name'}>CIVICDATALAB</h1>
                 <br />
-                CivicDataLab works with the goal to use data, tech, design and
+                <span>CivicDataLab</span> works with the goal to use data, tech, design and
                 social science to strengthen the course of civic engagements in
                 India. We work to harness the potential of open-source movement
                 to enable citizens to engage better with public reforms. We aim
@@ -522,7 +521,7 @@ class Home extends Component {
               <img
                 src={require('../../static/images/cdl-logo.png')}
                 className='about-us-section-img-cdl'
-                alt="cdl logo"
+                alt="cdl logo" 
               />
               </a>
             </Col>
@@ -565,13 +564,27 @@ class Home extends Component {
               alt="twitter logo"
             ></img>
             </a>
-            <a href="mailto: ">
+            <a href="mailto: foss@civicdatalab.in">
             <img
               className="foss-social-media-icon"
               src="images/mail-logo.png"
               alt="email logo"
             ></img>
             </a>
+          </Col>  
+          <Col>
+          <p className={"foss-cc-by-content"}>The State of Foss in India by<a href="https://civicdatalab.in/" target="_blank"  className={"cdl-link"}> CivicDataLab </a>is licensed under <a href="https://creativecommons.org/licenses/by/4.0?ref=chooser-v1" target="_blank"  className={"cdl-link"}>CC BY 4.0 </a> 
+          <img
+              className="foss-cc-by-img-1"
+              src="images/cc-1.svg"
+              alt="cc"
+            ></img>
+                   <img
+              className="foss-cc-by-img-2"
+              src="images/cc.svg"
+              alt="cc"
+            ></img>
+          </p>
           </Col>
         </div>
       </Row>
