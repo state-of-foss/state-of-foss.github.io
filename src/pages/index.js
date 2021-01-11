@@ -462,7 +462,7 @@ class Home extends Component {
                   <div className={"download-folder"}>
                   <p>The State of Free & Open Source Software in India</p>
                   <p>
-                    <a className="foss-link" href="#">
+                    <a className="foss-link" href="/the-state-of-foss-report-executive-summary.pdf">
                       Executive Summary
                     </a>
                   </p>
@@ -474,7 +474,7 @@ class Home extends Component {
                   <div className={"download-folder"}>
                   <p>The State of Free & Open Source Software in India</p>
                   <p>
-                    <a className="foss-link" href="#">
+                    <a className="foss-link" href="/the-state-of-foss-report.pdf">
                       Entire Report
                     </a>
                   </p>
