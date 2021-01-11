@@ -187,14 +187,27 @@ li {
     top: 4%;
     padding: 25% 20%;
     font-size: 20px;
-    font-size: 24px;
+    left: 5%;
+    text-align: left;
 }
 
 .normal-folder {
     position: absolute;
     justify-content: center;
     top: 5%;
-    padding: 27% 32%;
+    padding: 32% 30%;
+    font-weight: 600;
+}
+
+.normal-three-text {
+    padding: 27% 30% !important;
+}
+
+.another-normal-folder {
+    position: absolute;
+    justify-content: center;
+    top: 5%;
+    padding: 25% 30%;
     font-weight: 600;
 }
 
