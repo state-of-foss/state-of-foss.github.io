@@ -320,28 +320,23 @@ span {
 }
 
 .ecosystemOne-section-img {
-  width: 299px;
-  height: 515px;
-  margin-left: 195px;
+
   margin-top: 12px;
 }
 
 .ecosystemTwo-section-img {
-  width: 241px;
-  height: 372px;
+ 
   margin-left: 36px;
   margin-top: 150px;
 }
 
 .ecosystemThree-section-img {
-  width: 248px;
-  height: 375px;
+  
   margin-top: 145px;
   margin-left: 90px;
 }
 .ecosystemFour-section-img {
-  width: 330px;
-  height: 320px;
+  
   margin-top: 150px;
   margin-left: 70px;
 }
@@ -1274,9 +1269,7 @@ margin-left: 20px;
       margin-left: 0px;
       margin-top: 0px;
     }
-    .ecosystemOne-section-img {
-      margin-left: 100px;
-    }
+ 
     
     .ecosystemTwo-section-img {
     margin-left: 20px;

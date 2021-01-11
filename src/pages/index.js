@@ -308,26 +308,34 @@ class Home extends Component {
               </Col>
             </Row>
             <Row className={'foss-ecosystem-images'}>
+            <Col sm={12} md={6} lg={3}>
               <img
                 src={require('../../static/images/ecosystemOne.png')}
                 className='ecosystemOne-section-img'
                 alt='ecosystem one'
               />
+              </Col>
+              <Col sm={12} md={6} lg={3}>
               <img
                 src={require('../../static/images/ecosystemTwo.png')}
                 className='ecosystemTwo-section-img'
                 alt='ecosystem two'
               />
+              </Col>
+              <Col sm={12} md={6} lg={3}>
               <img
                 src={require('../../static/images/ecosystemThree.png')}
                 className='ecosystemThree-section-img'
                 alt='ecosystem three'
               />
+              </Col>
+              <Col sm={12} md={6} lg={3}>
               <img
                 src={require('../../static/images/ecosystemFour.png')}
                 className='ecosystemFour-section-img'
                 alt='ecosystem four'
               />
+              </Col>
             </Row>
           </div>
         </Row>
