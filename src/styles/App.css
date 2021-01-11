@@ -178,6 +178,10 @@ span {
   opacity: 1;
 }
 
+.download-text{
+  text-decoration: none;
+  color: #000000;
+}
 .about-us-title {
   opacity: 1;
   border: 5px solid black;
@@ -825,7 +829,7 @@ height: 77px; */
   }
   
   .ecosystemThree-section-img {
-    margin-left: -46px;
+    margin-left: -27px;
 
   }
   .ecosystemFour-section-img {
@@ -927,6 +931,8 @@ height: 77px; */
     padding-bottom: 3.16px;
     padding-left: 15.3px;
     font-size: 19px;
+    text-decoration: none;
+    color: black;
   }
 
 }

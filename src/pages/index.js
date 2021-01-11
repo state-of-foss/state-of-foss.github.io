@@ -448,8 +448,8 @@ class Home extends Component {
         </div>
       </div>
 
-      <Row className="foss-download-section">
-        <div className="foss-container">
+      <Row className="foss-download-section" >
+        <div className="foss-container" id="section-9">
           <Col sm={12}>
             <Row>
               <div className={'about-us-title'}>DOWNLOAD THE REPORT</div>
