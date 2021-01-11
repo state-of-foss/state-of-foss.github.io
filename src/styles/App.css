@@ -1194,7 +1194,7 @@ margin-left: 20px;
     
     .advancement-right-last-section{
       font-size: 53px;
-      width: 47vw;
+     
     }
     .section-actors-right-first-block{
       width: 53vw;
@@ -1242,12 +1242,6 @@ margin-left: 20px;
       padding-left: 35px;
       font-size: 23px;
     }
-    .advancement-last-section-line{
-      width: 51vw;
-    }
-    .advancement-last-line{
-      width: 51vw;
-    }
     .advancement-right-content{
       font-size: 26px;
     }
@@ -1283,9 +1277,7 @@ margin-left: 20px;
     .foss-container{
       margin-left: 84px;
     }
-    .title-advancement{
-      margin-left: -45px;
-    }
+
     }
 
 .ONI-section{

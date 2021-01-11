@@ -350,6 +350,7 @@ class Home extends Component {
                   Indian FOSS Ecosystem & its Challenges
                 </h2>{' '}
                 <Row>
+                 
                   <div className={'d-flex justify-content-end'}>
                     <img
                       src={require('../../static/images/challenges.png')}
@@ -357,6 +358,7 @@ class Home extends Component {
                       alt='challenges section'
                     />
                   </div>
+              
                 </Row>
               </Col>
               <Challenges />
