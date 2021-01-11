@@ -11,7 +11,7 @@ export default function Folder(props) {
             { props.children }
         </div>
         {props.caption && 
-            <div className="folder-caption">
+            <div className={`folder-caption ${ props.captionClass }`}>
                 { props.caption }
             </div>
         }

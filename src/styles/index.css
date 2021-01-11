@@ -79,12 +79,12 @@ body {
 
 .categories-folder-first {
     /* margin-top: 40vh; */
-    margin-top: 380px;
+    margin-top: 480px;
 }
 
 .categories-folder {
     /* margin-top: 40vh; */
-    margin-top: 380px;
+    margin-top: 480px;
 }
 
 .categories-folder-col {
@@ -127,7 +127,8 @@ li {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: white;
+    background-image: url("../../static/images/background-grid.png");
+    background-repeat: repeat;
     z-index: 2;
     overflow: scroll;
 }
@@ -190,7 +191,7 @@ li {
 .normal-folder {
     position: absolute;
     justify-content: center;
-    top: 5%;
+    top: 2%;
     padding: 32% 30%;
     font-weight: 600;
 }

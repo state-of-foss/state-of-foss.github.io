@@ -208,7 +208,7 @@ class Home extends Component {
               </h4>
               <Col sm={12} md={12} lg={2} style={{ backgroundColor: '#FFDFD5' }}>
                 <div className='categories-folder-first'>
-                  <Folder background_color='white' caption='1886 - 1978' folderSize='small-folder'
+                  <Folder background_color='white' caption='1886 - 1978'
                           wrapperType={'timeline-folder'}
                           handleClick={() => this.showModal('inception-of-foss')}>
                     <div className={'normal-folder'}>
@@ -221,7 +221,7 @@ class Home extends Component {
                 <div className='categories-folder'>
                   <Folder className='categories-folder' background_color='white' caption='1978 - 1989'
                           wrapperType={'timeline-folder'}
-                          folderSize='small-folder' handleClick={() => this.showModal('rise-of-foss')}>
+                          handleClick={() => this.showModal('rise-of-foss')}>
                     <div className={'normal-folder'}>
                       <p>Rise Of Free Software</p>
                     </div>
@@ -232,7 +232,7 @@ class Home extends Component {
                 <div className='categories-folder'>
                   <Folder className='categories-folder' background_color='white' caption='1991 - 1998'
                           wrapperType={'timeline-folder'}
-                          folderSize='small-folder' handleClick={() => this.showModal('rise-of-cb')}>
+                          handleClick={() => this.showModal('rise-of-cb')}>
                     <div className={'normal-folder normal-three-text'}>
                       <p>Rise Of Community Businesses</p>
                     </div>
@@ -243,7 +243,7 @@ class Home extends Component {
                 <Row className={'categories-folder-rcontainer'}>
                   <Col sm={12} md={12} lg={{ span: 4, offset: 2 }}>
                     <div className='categories-folder-col'>
-                      <Folder background_color='white' caption='1998 -2008' folderSize='small-folder'
+                      <Folder background_color='white' caption='1998 -2008'
                               wrapperType={'timeline-folder'}
                               handleClick={() => this.showModal('big-tech')}>
                         <div className={'normal-folder'}>
@@ -256,8 +256,9 @@ class Home extends Component {
                 <Row className={'categories-folder-rcontainer'} style={{ backgroundColor: '#66FFD5' }}>
                   <Col sm={12} md={12} lg={{ span: 4, offset: 2 }}>
                     <div className='categories-folder-col'>
-                      <Folder background_color='white' caption='1999 - 2019' folderSize='small-folder'
+                      <Folder background_color='white' caption='1999 - present'
                               wrapperType={'timeline-folder'}
+                              captionClass={'present-caption'}
                               handleClick={() => this.showModal('global-proliferation')}>
                         <div className={'normal-folder'}>
                           <p>Global Proliferation</p>
@@ -269,8 +270,9 @@ class Home extends Component {
                 <Row className={'categories-folder-rcontainer'} style={{ backgroundColor: '#FFD78F' }}>
                   <Col sm={12} md={12} lg={{ span: 4, offset: 2 }}>
                     <div className='categories-folder-col'>
-                      <Folder background_color='white' caption='2001-present' folderSize='small-folder'
+                      <Folder background_color='white' caption='2001 - present'
                               wrapperType={'timeline-folder'}
+                              captionClass={'present-caption'}
                               handleClick={() => this.showModal('expansion-in-india')}>
                         <div className={'normal-folder'}>
                           <p>Expansion In India</p>
@@ -289,7 +291,7 @@ class Home extends Component {
             <div className={"index-card hide-text-md"}>04</div>
             <Row>
               <Col sm={12} md={3} lg={3} className={'left-col'}>
-                <h2 className={'text-left-1'}>Indian FOSS Ecosystem</h2>
+                <h2 className={'text-left-1'}>Indian FOSS Ecosyste&shy;m</h2>
               </Col>
               <Col sm={12} md={8} lg={8} className={'right-col'}>
                 <p className={'right-text-ecosystem'}>
@@ -347,7 +349,7 @@ class Home extends Component {
               <Col sm={12} md={12} lg={3} className={'left-col'}>
                 {' '}
                 <h2 className={'text-left-1'}>
-                  Indian FOSS Ecosystem & its Challenges
+                  Indian FOSS Ecosyst&shy;em & its Challen&shy;ges
                 </h2>{' '}
                 <Row>
                  
@@ -373,7 +375,7 @@ class Home extends Component {
             <Row>
               <Col sm={12} md={12} lg={4} className={'left-col'}>
                 <h2 className={'text-left-1'}>
-                  Recommendations to step up India’s FOSS game
+                  Recommend&shy;ations to step up India’s FOSS game
                 </h2>
               </Col>
               <Col sm={12} md={12} lg={{ span: 7, offset: 1 }}>
@@ -440,7 +442,7 @@ class Home extends Component {
             <Row>
               <Col sm={12} md={12} lg={4} className={'left-col'}>
                 <h2 className={'text-left'}>
-                  Sustained Collaborations to Build Future Pathways for FOSS in
+                  Sustained Collaborat&shy;ions to Build Future Pathways for FOSS in
                   India
                 </h2>
               </Col>

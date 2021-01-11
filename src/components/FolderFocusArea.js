@@ -31,7 +31,7 @@ export default class FolderFocusArea extends Component {
     constructor(props) {
     super(props);
     this.state = {
-      folder: "",
+      folder: "temp",
       step: 0,
       width: false,
     };
@@ -39,6 +39,7 @@ export default class FolderFocusArea extends Component {
     this.previousStep = this.previousStep.bind(this);
 
     this.page_map = {
+      "temp": [],
       "expansion-in-india": [expansion_in_india_one, expansion_in_india_two],
       "page-foss-communities": [foss_community, foss_community_flow, page_foss_community_challenges, <FocusAreaContentComm />],
       "page-foss-education": [page_foss_education_one, page_foss_education_three, page_foss_education_two, <FocusAreaContentEdu />],
@@ -74,12 +75,12 @@ export default class FolderFocusArea extends Component {
         {this.state.step > 0 &&
           <img className="modal-previous" alt="modal-previous" src={arrow_back} onClick={this.previousStep} />
         }
-        {this.state.step < 3 &&
+        {this.state.step < this.page_map[this.state.folder].length - 1 &&
           <img className="modal-next" alt="modal-next" src={arrow} onClick={this.nextStep} />
         }
         {this.state.step < 3 ? (
           <div>
-          {this.state.folder != "" && 
+          {this.state.folder != "temp" &&
           <img className={"folder-image-nested " + (this.state.width ? 'folder-width-full' : '')} alt="folder" src={this.page_map[this.state.folder][this.state.step]} />
         }
         </div>
