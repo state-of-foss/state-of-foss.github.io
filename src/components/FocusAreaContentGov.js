@@ -20,16 +20,16 @@ const FocusAreaContentGov = () => {
             giving more control and ownership to the state and reducing vendor
             lock-ins.
           </p>
-          <div onClick={() => setValue(0)} className={'folder-1'}>
+          {/* <div onClick={() => setValue(0)} className={'folder-1'}>
             <Folder background_color="white">
           <div className={"component-folder"}>
               <p>outreachey</p>
               </div>
             </Folder>
-          </div>
-          <div className={'window-card'}>
+          </div> */}
+          {/* <div className={'window-card'}>
             <Card background_color="#01BCD5">{box}</Card>
-          </div>
+          </div> */}
         </div>
         <div className={'column-container-focus-area'}>
           <p className={'middle'}>

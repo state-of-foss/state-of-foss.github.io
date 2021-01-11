@@ -758,6 +758,7 @@ height: 77px; */
     padding-left: 10px;
 
   }
+ 
   .foss-cc-by-content{
     display: block;
     margin-top: 20px;
@@ -831,12 +832,12 @@ height: 77px; */
   
   .ecosystemTwo-section-img {
 
-    margin-left: -42px;
+    margin-left: 1px;
 
   }
   
   .ecosystemThree-section-img {
-    margin-left: -27px;
+    margin-left: 5px;
 
   }
   .ecosystemFour-section-img {
@@ -844,7 +845,7 @@ height: 77px; */
 
   }
   .foss-ecosystem-images{
-    display: flex;
+    display: grid;
     justify-content: center;
   }
   .challenges-section-img{
