@@ -23,7 +23,7 @@ const FocusAreaContentComm = () => {
             </span>
             there is a need for a long term vision of personal and professional development to retain and sustain FOSS communities.
           </p>
-          <div onClick={() => setValue(0)}  className={"folder-1"} >
+          {/* <div onClick={() => setValue(0)}  className={"folder-1"} >
           <Folder background_color="white"> 
           <div className={"component-folder"}>
             <p>outreachey</p>
@@ -34,7 +34,7 @@ const FocusAreaContentComm = () => {
           <Card background_color="#01BCD5" >
                   {box}
                 </Card>
-                </div>
+                </div> */}
                 
         </div>
         <div className={'column-container-focus-area'}>
@@ -52,13 +52,13 @@ const FocusAreaContentComm = () => {
             the need to be constantly “on”, that leads to burnout and
             resignations.
           </p>
-          <div onClick={() => setValue(1)}  className={"folder-2"} >
+          {/* <div onClick={() => setValue(1)}  className={"folder-2"} >
           <Folder background_color="white">
           <div className={"component-folder"}>
             <p>Spoken Tutorial</p>
             </div>
           </Folder>
-          </div>
+          </div> */}
         </div>
         <div className={'column-container-focus-area'}>
           <p className={'right'}>
@@ -69,13 +69,13 @@ const FocusAreaContentComm = () => {
             and support from within the community resulting in more robust and
             sustainable projects.
           </p>
-          <div className={"folder-3"} onClick={() => setValue(2)} >
+          {/* <div className={"folder-3"} onClick={() => setValue(2)} >
           <Folder background_color="white">
           <div className={"component-folder"}>
             <p>FOSSEE</p>
             </div>
           </Folder>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

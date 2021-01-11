@@ -72,3 +72,11 @@ line-height: 22px;
     margin-top: 59px;
     margin-left: -15px;
 }
+
+@media only screen and (min-device-width: 1400px) and (max-device-width: 1700px) and (-webkit-min-device-pixel-ratio: 2) {
+    .column-wrapper-focus-area {
+        margin-left: 114px;
+        display: flex;
+        margin-top: 200px;
+    }
+}
