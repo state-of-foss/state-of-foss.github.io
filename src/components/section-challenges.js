@@ -24,7 +24,7 @@ const Challenges = () => {
           })}
         </div>
       </Col>
-      <Col sm={6}>
+      <Col sm={12} md={12} lg={6}>
         <div>
           <p className={'container-challenges-content'}>
             <span>{bold}</span>
