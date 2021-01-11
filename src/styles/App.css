@@ -616,7 +616,6 @@ height: 77px; */
 @media only screen and (max-width: 991px) {
   .wrapper {
     width: 100% !important;
-    left: auto !important;
     font-size: 3rem;
   }
 
