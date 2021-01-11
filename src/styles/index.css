@@ -129,7 +129,7 @@ li {
     height: 100vh;
     background-image: url("../../static/images/background-grid.png");
     background-repeat: repeat;
-    z-index: 2;
+    z-index: 6;
     overflow: scroll;
 }
 
