@@ -108,7 +108,6 @@ class Home extends Component {
                       alt="advancement-section"
                     />
                   </div>
-
                   <hr className={'advancement-last-section-line'}></hr>
                   <p className={'advancement-right-last-section'}>
                     More than 85% of India’s Internet runs on FOSS
@@ -118,6 +117,132 @@ class Home extends Component {
               </Col>
             </Row>
           </div>
+
+      <Row className="foss-categories-section" id="section-3">
+        <Col sm={12}></Col>
+        <Col sm={12} className="foss-categories-body">
+          <Row>
+            <Row className={"foss-categories-text"}>
+              <Col sm={12} md={12} lg={5} className={'left-col'}>
+                <h2 className={'title-advancement'}>
+                  Chronicling the FOSS movement in India
+              </h2>
+                <h4 className={'about-advancement hide-text-md'}>
+                  Based on our conversations and reading, we classified the FOSS movement into six eras mentioned here
+              </h4>
+              </Col>
+            </Row>
+            <Col sm={12} md={12} lg={2} style={{ backgroundColor: "#FFDFD5" }}>
+              <div className="categories-folder-first">
+                <Folder background_color="white" caption="1886 - 1978" folderSize="small-folder" handleClick={() => this.showModal('inception-of-foss')}>
+                  <div className={"normal-folder"}>
+                  <p>Inception Of FOSS</p>
+                  </div>
+                </Folder>
+              </div>
+            </Col>
+            <Col sm={12} md={12} lg={2} style={{ backgroundColor: '#E2EED5' }}>
+              <div className="categories-folder">
+                <Folder className="categories-folder" background_color="white" caption="1978 - 1989" folderSize="small-folder" handleClick={() => this.showModal('rise-of-foss')}>
+                  <div className={"normal-folder"}>
+                  <p>Rise Of Free Software</p>
+                  </div>
+                </Folder>
+              </div>
+            </Col>
+            <Col sm={12} md={12} lg={2} style={{ backgroundColor: '#FEFFB2' }}>
+              <div className="categories-folder">
+                <Folder className="categories-folder" background_color="white" caption="1991 - 1998" folderSize="small-folder" handleClick={() => this.showModal('rise-of-cb')}>
+                  <div className={"normal-folder normal-three-text"}>
+                  <p>Rise Of Community Businesses</p>
+                  </div>
+                </Folder>
+              </div>
+            </Col>
+            <Col sm={12} md={12} lg={6} style={{ backgroundColor: "#B8FAFF" }}>
+              <Row className={"categories-folder-rcontainer"}>
+                <Col md={{ span: 4, offset: 2 }}>
+                  <div className="categories-folder-col">
+                    <Folder background_color="white" caption="1998 -2008" folderSize="small-folder" handleClick={() => this.showModal('big-tech')}>
+                  <div className={"normal-folder"}>
+                      <p>Big Tech Fights Back</p>
+                      </div>
+                    </Folder>
+                  </div>
+                </Col>
+              </Row>
+              <Row className={"categories-folder-rcontainer"} style={{ backgroundColor: "#66FFD5" }}>
+                <Col md={{ span: 4, offset: 2 }}>
+                  <div className="categories-folder-col">
+                    <Folder background_color="white" caption="1999 - 2019" folderSize="small-folder" handleClick={() => this.showModal('global-proliferation')}>
+                  <div className={"normal-folder"}>
+                      <p>Global Proliferation</p>
+                      </div>
+                    </Folder>
+                  </div>
+                </Col>
+              </Row>
+              <Row className={"categories-folder-rcontainer"} style={{ backgroundColor: "#FFD78F" }}>
+                <Col md={{ span: 4, offset: 2 }}>
+                  <div className="categories-folder-col">
+                    <Folder background_color="white" caption="2001 - 2018" folderSize="small-folder" handleClick={() => this.showModal('expansion-in-india')}>
+                  <div className={"normal-folder"}>
+                      <p>Expansion In India</p>
+                      </div>
+                    </Folder>
+                  </div>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+
+      <Row className={'section-ecosystem-wrapper'} id="section-4">
+        <div className={'section-container'}>
+          <Row>
+            <Col sm={12} md={3} lg={3} className={'left-col'}>
+              <h2 className={'text-left-1'}>Indian FOSS Ecosystem</h2>
+            </Col>
+            <Col sm={12} md={8} lg={8} className={'right-col'}>
+              <p className={'right-text-ecosystem'}>
+                As we look ahead to chart where the FOSS movement in India can
+                go, we must acknowledge the challenges and opportunities that
+                lie in this journey ahead.
+                <br />
+                <br />
+                The key actors in the FOSS movement are individual volunteers
+                and consultants, FOSS groups, schools, higher educational and
+                research institutes, online educational actors, micro small and
+                medium tech enterprises, global tech firms, local and state
+                governments, national governments, FOSS funders and FOSS
+                investors.
+              </p>
+            </Col>
+          </Row>
+          <Row className={'foss-ecosystem-images'}>
+            <img
+              src={require('../../static/images/ecosystemOne.png')}
+              className='ecosystemOne-section-img'
+              alt="ecosystem one"
+            />
+            <img
+              src={require('../../static/images/ecosystemTwo.png')}
+              className='ecosystemTwo-section-img'
+              alt="ecosystem two"
+            />
+            <img
+              src={require('../../static/images/ecosystemThree.png')}
+              className='ecosystemThree-section-img'
+              alt="ecosystem three"
+            />
+            <img
+              src={require('../../static/images/ecosystemFour.png')}
+              className='ecosystemFour-section-img'
+              alt="ecosystem four"
+            />
+          </Row>
+
         </div>
 
         <Row className="foss-opportunities-section">
@@ -345,6 +470,7 @@ class Home extends Component {
         <Row className={'section-ecosystem-wrapper'} id="section-4">
           <div className={'section-container'}>
             <Row>
+
               <Col sm={12} md={3} lg={3} className={'left-col'}>
                 <h2 className={'text-left-1'}>Indian FOSS Ecosystem</h2>
               </Col>
@@ -404,6 +530,33 @@ class Home extends Component {
                       className="challenges-section-img"
                       alt="challenges section"
                     />
+
+              <Col md={2} style={{left: "-3%"}}>
+                <Folder background_color="#FFDDD6" handleClick={() => this.showModal('page-foss-communities')}>
+                  <div className={"another-normal-folder"}>
+                  <p>FOSS & Communities</p>
+                  </div>
+                </Folder>
+              </Col>
+              <Col md={{ span: 2, offset: 0 }} style={{left: "-3%"}}>
+                <Folder background_color="#FFD8FC" handleClick={() => this.showModal('page-foss-education')}>
+                  <div className={"another-normal-folder"}>
+                  <p>FOSS & Education</p>
+                  </div>
+                </Folder>
+              </Col>
+              <Col md={{ span: 2, offset: 0 }} style={{left: "-3%"}}>
+                <Folder background_color="#FCFFE0" handleClick={() => this.showModal('page-foss-business')}>
+                  <div className={"another-normal-folder"}>
+                  <p>FOSS & Business</p>
+                  </div>
+                </Folder>
+              </Col>
+              <Col md={{ span: 2, offset: 0 }} style={{left: "-3%"}}>
+                <Folder background_color="#AAD3FF" handleClick={() => this.showModal('page-foss-government')}>
+                  <div className={"another-normal-folder"}>
+                  <p>FOSS & Government</p>
+
                   </div>
                 </Row>
               </Col>
@@ -493,6 +646,7 @@ class Home extends Component {
         <div className={'section-collaborations-wrapper'} id="section-8">
           <div className={'section-container'}>
             <Row>
+
               <Col sm={3} className={'left-col'}>
                 <h2 className={'text-left'}>
                   Sustained Collaborations to Build Future Pathways for FOSS in
@@ -519,6 +673,28 @@ class Home extends Component {
                     users in our digital journey of growth, but will also create
                     safe, diverse and open environments for citizens to
                     participate, co-create and grow together.
+
+              <Col sm={12} md={6} lg={4}>
+                <Folder background_color="white">
+                  <div className={"download-folder"}>
+                  <p>The State of Free & Open Source Software in India</p>
+                  <p>
+                    <a className="foss-link" href="/the-state-of-foss-report-executive-summary.pdf">
+                      Executive Summary
+                    </a>
+                  </p>
+                  </div>
+                </Folder>
+              </Col>
+              <Col sm={12} md={6} lg={{ span: 4, offset: 1 }}>
+                <Folder background_color="white">
+                  <div className={"download-folder"}>
+                  <p>The State of Free & Open Source Software in India</p>
+                  <p>
+                    <a className="foss-link" href="/the-state-of-foss-report.pdf">
+                      Entire Report
+                    </a>
+
                   </p>
                   <img
                     src={require('../../static/images/collaborations.png')}
