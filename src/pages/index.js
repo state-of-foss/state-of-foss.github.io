@@ -454,11 +454,15 @@ class Home extends Component {
                     diverse and open environments for citizens to participate,
                     co-create and grow together.
                   </p>
-                  <img
-                    src={require('../../static/images/collaborations.png')}
-                    className='collaborations-section-img'
-                    alt='collaborations section'
-                  />
+                </Row>
+                <Row>
+                  <Col className={"hide-text-md"} lg={{span: 6, offset: 6}}>
+                    <img
+                      src={require('../../static/images/collaborations.png')}
+                      className='collaborations-section-img'
+                      alt='collaborations section'
+                    />
+                  </Col>
                 </Row>
               </Col>
             </Row>

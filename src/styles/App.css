@@ -6,11 +6,13 @@
 
 .cc-logo {
   position: absolute;
+  margin-left: -15px;
   bottom: -50px;
   left: 0;
 }
 
 .foss-cc-by-content{
+  margin-left: -15px;
   font-size: 16px;
   font-family: "Nunito";
   justify-content: center;
@@ -88,8 +90,6 @@
   color: #000000;
   line-height: 30px;
   opacity: 1;
-  width: 707px;
-  height: 123px;
   margin-top: 50px;
   padding-left: 21px;
 }
@@ -157,7 +157,6 @@ height: 77px; */
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
-  width: 583px;
   min-height: 100px;
   /* height: 634px; */
   padding-left: 52px;
@@ -301,7 +300,6 @@ span {
 }
 
 .section-end-hr {
-  width: 100%;
   margin: 0px;
 }
 
@@ -354,7 +352,6 @@ span {
   width: 100%;
   height: auto;
   margin-top: 93px;
-  margin-left: -200px;
 }
 
 .section-actors-right-col {
@@ -626,10 +623,6 @@ height: 77px; */
     margin: -35% 45%;
   }
 
-  .hide-text-md {
-    display: block !important;
-  }
-
   .timeline-folder {
     left: -4%;
   }
@@ -775,9 +768,8 @@ height: 77px; */
   }
 
   .download-folder-container {
-    left: -7%;
+    left: -7% !important;
   }
-
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 820px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -816,10 +808,6 @@ height: 77px; */
     line-height: 27px;
     width: 87vw;
   }
-  .left-line{
-    margin-left: -15px;
-    width: 422px;
-  }
 
   .advancement-right-title{
     font-size: 25px;
@@ -838,7 +826,6 @@ height: 77px; */
   }
   .advancement-right-last-section{
     font-size: 42px;
-    width: 100vw;
     padding-left: 0px;
     padding-right: 18px;
     line-height: 53px;
