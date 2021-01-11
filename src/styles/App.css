@@ -4,6 +4,10 @@
   overflow-x: hidden;
 }
 
+.download-text{
+  color: black;
+  text-decoration: none;
+}
 .foss-cc-by-content{
   font-size: 25px;
   font-family: "Nunito";
@@ -774,7 +778,7 @@ height: 77px; */
   
   .ecosystemTwo-section-img {
 
-    margin-left: -42px;
+    margin-left: -27px;
 
   }
   
@@ -881,6 +885,8 @@ height: 77px; */
     padding-bottom: 3.16px;
     padding-left: 15.3px;
     font-size: 19px;
+    color: black;
+    text-decoration: none;
   }
 
 }
@@ -888,9 +894,21 @@ height: 77px; */
 @media only screen and (min-device-width: 1200px) and (max-device-width: 1300px) and (-webkit-min-device-pixel-ratio: 2) {
 .section-front-banner-wrapper{
   height: 792px;
-
 }
-
+.front-banner-download{
+  margin-top: 8px;
+}
+.download-text{
+  
+  margin-bottom: 0 !important;
+  padding-top: 5.67px;
+  padding-right: 23.16px;
+  padding-bottom: 7.16px;
+  padding-left: 26.3px;
+}
+.front-banner-nav{
+    margin-top: 8px;
+}
 .section-container{
   padding-top: 15px;
   margin-left: 50px;
