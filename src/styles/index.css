@@ -50,18 +50,11 @@ body {
 }
 
 .foss-container {
-    width: 100%;
-    max-width: 1620px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-@media only screen and (max-width: 820px) {
-  .foss-container {
-      max-width: 820px;
-  }
+    width: 98.5%;
+    padding-right: 135px;
+    padding-left: 115px;
+    padding-top: 50px;
+    margin: 50px 15px 50px 0;
 }
 
 .foss-about {

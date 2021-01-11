@@ -22,6 +22,9 @@ const FocusAreaContentComm = () => {
             Help onboard new members to FOSS and mentor them to develop their individual and collective roadmaps,
             </span>
             there is a need for a long term vision of personal and professional development to retain and sustain FOSS communities.
+            <br /><br />
+            <span>Eg:</span> Outreachy<br/>
+            Software Freedom Conservancy organizes internship programmes called outreachy for underrepresented groups
           </p>
           {/* <div onClick={() => setValue(0)}  className={"folder-1"} >
           <Folder background_color="white"> 
@@ -51,6 +54,9 @@ const FocusAreaContentComm = () => {
             pressure of such a critical role on a single person, who often feels
             the need to be constantly “on”, that leads to burnout and
             resignations.
+            <br/><br/>
+            <span>Eg:</span> Succession Planning for FOSS Communities<br/>
+            A good example is the work of Vicky Brausser, a FOSS advocate who conducts succession planning training for FOSS Communities
           </p>
           {/* <div onClick={() => setValue(1)}  className={"folder-2"} >
           <Folder background_color="white">
@@ -68,6 +74,9 @@ const FocusAreaContentComm = () => {
             to solve a problem would increase project retention, contribution
             and support from within the community resulting in more robust and
             sustainable projects.
+            <br/><br/>
+            <span>Eg:</span> The Linux Foundation<br/>
+            The Linux Foundation, a non-profit technology consortium that supports the growth and promotion of the different projects and communities around Linux
           </p>
           {/* <div className={"folder-3"} onClick={() => setValue(2)} >
           <Folder background_color="white">

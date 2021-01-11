@@ -7,7 +7,7 @@ const Challenges = () => {
   const { id, name, bold, content } = data[value];
   return (
     <>
-      <Col sm={3}>
+      <Col sm={12} md={12} lg={3}>
         <div className={'container-challenges'}>
           {data.map((item, index) => {
             return (

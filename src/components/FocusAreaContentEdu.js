@@ -18,7 +18,7 @@ const FocusAreaContentEdu = () => {
             </span>
             A FOSS led curriculum needs to be created and adopted in schools to facilitate awareness and adoption around FOSS from an early age.
           </p>
-          {/* <div onClick={() => setValue(0)} className={'folder-1'}>
+          <div onClick={() => setValue(0)} className={'folder-1'}>
             <Folder background_color="white">
           <div className={"component-folder"}>
               <p>outreachey</p>
@@ -27,7 +27,7 @@ const FocusAreaContentEdu = () => {
           </div>
           <div className={'window-card'}>
             <Card background_color="#01BCD5">{box}</Card>
-          </div> */}
+          </div>
         </div>
         <div className={'column-container-focus-area'}>
           <p className={'middle'}>
@@ -37,13 +37,13 @@ const FocusAreaContentEdu = () => {
             Collaborate with the community to ensure localisation and adoption of such technologies.
 
           </p>
-          {/* <div onClick={() => setValue(1)} className={'folder-2'}>
+          <div onClick={() => setValue(1)} className={'folder-2'}>
             <Folder background_color="white">
           <div className={"component-folder"}>
               <p>Spoken Tutorial</p>
               </div>
             </Folder>
-          </div> */}
+          </div>
         </div>
         <div className={'column-container-focus-area'}>
           <p className={'right'}>
@@ -51,13 +51,13 @@ const FocusAreaContentEdu = () => {
             Focused on introducing students to FOSS development along communities working in specific focus areas.
 
           </p>
-          {/* <div className={'folder-3'} onClick={() => setValue(2)}>
+          <div className={'folder-3'} onClick={() => setValue(2)}>
             <Folder background_color="white">
           <div className={"component-folder"}>
               <p>FOSSEE</p>
               </div>
             </Folder>
-          </div> */}
+          </div>
         </div>
       </div>
     </>
