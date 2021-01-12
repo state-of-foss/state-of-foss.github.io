@@ -168,6 +168,7 @@ height: 77px; */
   padding-bottom: 25px;
   font-size: 25px;
   background-color: white;
+  font-family: Nunito;
 }
 
 span {
@@ -206,6 +207,7 @@ span {
   margin-bottom: 30px;
   box-shadow: 10px 10px;
   font-weight: 900;
+  font-family: AlgolRevived;
 }
 
 .about-us-left-content {
@@ -275,6 +277,7 @@ span {
   color: #000000;
   opacity: 1;
   padding-top: 40px;
+  font-family: Nunito;
 }
 
 .advancement-right-content {
@@ -375,7 +378,6 @@ span {
   font-family: 'Nunito';
   letter-spacing: 0px;
   color: #000000;
-  width: 371px;
 }
 
 .about-us-section-img-cdl {
@@ -485,6 +487,7 @@ height: 77px; */
   box-shadow: 10px 10px;
   font-weight: 900;
   margin: auto;
+  font-family: AlgolRevived;
 }
 
 .opportunities-section {
@@ -682,7 +685,7 @@ height: 77px; */
   }
 
   .normal-folder {
-    font-size: 1.8rem !important;
+    font-size: 1.7rem !important;
     padding: 29% 30%;
     text-align: left;
   }
