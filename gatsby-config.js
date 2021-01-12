@@ -46,7 +46,7 @@ module.exports = {
         name: 'fonts',
         path: `${__dirname}/src/fonts/`
       }
-    },
+    }, 
     // {
     //   resolve: `gatsby-source-filesystem`,
     //   options: {
@@ -56,6 +56,18 @@ module.exports = {
     // },
     'gatsby-transformer-remark',
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'React go',
+        short_name: 'Reactgo',
+        start_url: '/',
+        background_color: '#f7f0eb',
+        theme_color: '#a2466c',
+        display: 'standalone',
+        icon: 'static/images/foss-favicon.png',
+      },
+    }
   ]
 };
