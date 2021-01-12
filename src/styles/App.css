@@ -636,9 +636,14 @@ height: 77px; */
 
 
 @media only screen and (max-width: 820px) {
+  .folder-image {
+    height: 100% !important;
+  }
+
   .footer-cc {
     margin-left: auto !important;
   }
+
   .hide-text-lg {
     display: block !important;
   }
