@@ -17,6 +17,7 @@ path {
     cursor: pointer;
     font-family: AlgolRevived;
     text-align: center;
+    z-index: 2;
 }
 
 .wrapper:hover {

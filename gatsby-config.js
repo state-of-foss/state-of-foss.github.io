@@ -2,35 +2,37 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: "The State of FOSS in India",
-    titleTemplate: "%s · CivicDataLab",
+    siteUrl: `https://state-of-foss.in`,
+    title: "The State of FOSS in India · CivicDataLab",
     description:
       "A chronicle of the evolution of the FOSS ecosystem in India, identifying key stakeholders, list out their challenges and recommendations. Supported by Omidyar Network India",
     url: "https://state-of-foss.in/", // No trailing slash allowed!
-    image: "/static/images/landing-page-img.png", // Path to your image you placed in the 'static' folder
-    twitterUsername: "@StateOfFOSS",
+    image: "https://state-of-foss.in/images/landing-page-img.png", // Path to your image you placed in the 'static' folder
+    social: {
+      twitter: "@StateOfFOSS"
+    },
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-sitemap`,
+      options: {}
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: "G-2V1FDMQKDM",
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false,
-        // Setting this parameter is optional
-        anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true,
-        // Avoids sending pageview hits from custom paths
-        exclude: ["/preview/**", "/do-not-track/me/too/"],
-        // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 0,
-        // Defers execution of google analytics script after page load
-        defer: false,
-        // Any additional optional fields
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "G-2V1FDMQKDM", // Google Analytics / GA
+        ],
+        // This object is used for configuration specific to this plugin
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: false,
+          // Setting this parameter is also optional
+          respectDNT: true,
+          // Avoids sending pageview hits from custom paths
+          exclude: ["/preview/**", "/do-not-track/me/too/"],
+        },
       },
     },
     {

@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/App.css';
 import Challenges from '../components/section-challenges';
 import Header from '../components/Header';
+import SEO from '../components/seo';
 import { Component } from 'react';
 
 
@@ -38,6 +39,7 @@ class Home extends Component {
   render() {
     return (
       <div>
+        <SEO />
         <div className={'section-front-banner-wrapper'} id='section-1'>
           <Header />
 
