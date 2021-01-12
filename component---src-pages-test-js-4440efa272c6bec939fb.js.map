@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/pages/test.js"],"names":["test"],"mappings":"2FAAA,gCAWeA,UATf,WACI,OACI","file":"component---src-pages-test-js-4440efa272c6bec939fb.js","sourcesContent":["import React from 'react'\n\nfunction test() {\n    return (\n        <div>\n            kekfnenefs\n            \n        </div>\n    )\n}\n\nexport default test\n"],"sourceRoot":""}
