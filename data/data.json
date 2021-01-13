@@ -8,7 +8,7 @@
     {
         "id": "1",
         "name": "Literacy",
-        "bold":"FOSS literacy and capacity of our youth has not kept its pace withthe emerging market demands.",
+        "bold":"FOSS literacy and capacity of our youth has not kept its pace with the emerging market demands.",
         "content": "While almost all major academic development tools are FOSS (such as R, Python, LaTex) there is still not enough formalization of FOSS curriculums and programmes in public and private education institutes. This is particularly true for programmes in regional languages which have dissuaded uptake and retention of FOSS by students and early-stage developers for whom English is not a first language, which makes up more than 80% of the population 39.Competing demand for resources and unavailability of localised content further hinders adoption at the grassroot level. There is also a need to communicate the values and principles of FOSS to young learners, fostering a collaborative culture of contribution."
     },
         {
