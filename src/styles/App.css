@@ -316,6 +316,9 @@ span {
 
 .section-challenges-wrapper {
   background-color: rgba(255, 221, 214, 0.36);
+  height: 100vh;
+  border-bottom: 4px solid black;
+  padding-bottom: 50px;
 }
 
 .collaborations-section-img {
@@ -604,6 +607,12 @@ height: 77px; */
   }
 }
 
+@media only screen and (max-width: 1500px) {
+  .section-challenges-wrapper {
+    height: 120vh;
+  }
+}
+
 
 @media only screen and (max-width: 1700px) {
   .wrapper {
@@ -617,6 +626,10 @@ height: 77px; */
 
 
 @media only screen and (max-width: 991px) {
+  .section-challenges-wrapper {
+    height: auto !important;
+  }
+
   .wrapper {
     width: 100% !important;
     font-size: 3rem;

@@ -3,7 +3,7 @@ import data from '../../static/data/data.json';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 const Challenges = () => {
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState(1);
   const { id, name, bold, content } = data[value];
   return (
     <>

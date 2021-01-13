@@ -360,7 +360,6 @@ class Home extends Component {
               <Challenges />
             </Row>
           </div>
-          <hr className={'section-end-hr'}></hr>
         </div>
 
         <Row className={'section-recommendations-wrapper'} id='section-6'>
