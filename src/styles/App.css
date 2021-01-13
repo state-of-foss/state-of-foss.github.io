@@ -8,6 +8,10 @@ html {
   overflow-x: hidden;
 }
 
+.front-page-img-1 {
+  max-width: 90px;
+}
+
 .cc-logo {
   position: absolute;
   margin-left: -15px;
