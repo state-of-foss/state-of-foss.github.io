@@ -63,7 +63,10 @@ class Home extends Component {
         <div className={'section-advancement-wrapper'} id='section-2'>
           <div className={'foss-container'}>
             <div className={"index-card hide-text-md"}>01</div>
-            <Row className={'first-row-wrapper-section-advancement'}>
+            <Row className={'first-row-wrapper-section-advancement'}
+                 data-sal="slide-down"
+                 data-sal-delay="3000"
+                 data-sal-easing="ease-in-out">
               <Col sm={12} md={12} lg={3} className={'left-col'}>
                 <h2 className={'title-advancement'}>
                   The Role of FOSS in India’s Digital Advancement
@@ -121,7 +124,9 @@ class Home extends Component {
           <div className='foss-container'>
             <div className={"index-card index-card-absolute hide-text-md"}>02</div>
             <Col sm={12}>
-              <Row>
+              <Row data-sal="slide-down"
+                   data-sal-delay="3000"
+                   data-sal-easing="ease-in-out">
                 <div className={'opportunities-title'}>Major FOSS led Opportunities for India</div>
               </Row>
             </Col>
@@ -195,9 +200,14 @@ class Home extends Component {
           <Col sm={12} className='foss-categories-body'>
             <Row>
               <Row className={'foss-categories-text'}>
-                <Col sm={12} md={12} lg={5} className={'left-col'}>
+                <Col sm={12} md={12} lg={5} className={'left-col'}
+                     data-sal="slide-down"
+                     data-sal-delay="3000"
+                     data-sal-easing="ease-in-out"
+                >
                   <div className={"index-card hide-text-md"}>03</div>
-                  <h2 className={'title-advancement'}>
+                  <h2 className={'title-advancement'}
+                  >
                     Chronicling the FOSS movement in India
                   </h2>
                   <h4 className={'about-advancement hide-text-lg'}>
@@ -292,7 +302,9 @@ class Home extends Component {
           <div className={'foss-container'}>
             <div className={"index-card hide-text-md"}>04</div>
             <Row>
-              <Col sm={12} md={3} lg={3} className={'left-col'}>
+              <Col sm={12} md={3} lg={3} className={'left-col'} data-sal="slide-down"
+                   data-sal-delay="3000"
+                   data-sal-easing="ease-in-out">
                 <h2 className={'text-left-1'}>Indian FOSS Ecosyste&shy;m</h2>
               </Col>
               <Col sm={12} md={8} lg={8} className={'right-col'}>
@@ -348,7 +360,9 @@ class Home extends Component {
           <div className={'foss-container'}>
             <div className={"index-card hide-text-md"}>05</div>
             <Row>
-              <Col sm={12} md={12} lg={3} className={'left-col'}>
+              <Col sm={12} md={12} lg={3} className={'left-col'} data-sal="slide-down"
+                   data-sal-delay="3000"
+                   data-sal-easing="ease-in-out">
                 {' '}
                 <h2 className={'text-left-1'}>
                   Indian FOSS Ecosyst&shy;em & its Challen&shy;ges
@@ -366,7 +380,9 @@ class Home extends Component {
           <div className={'foss-container'}>
             <div className={"index-card hide-text-md"}>06</div>
             <Row>
-              <Col sm={12} md={12} lg={4} className={'left-col'}>
+              <Col sm={12} md={12} lg={4} className={'left-col'} data-sal="slide-down"
+                   data-sal-delay="3000"
+                   data-sal-easing="ease-in-out">
                 <h2 className={'text-left-1'}>
                   Recommend&shy;ations to step up India’s FOSS game
                 </h2>
@@ -390,7 +406,9 @@ class Home extends Component {
           <div className='foss-container'>
             <div className={"index-card hide-text-md"}>07</div>
             <Col sm={12}>
-              <Row>
+              <Row data-sal="slide-down"
+                   data-sal-delay="3000"
+                   data-sal-easing="ease-in-out">
                 <h2 className={'title-advancement'}>Our Focus Areas</h2>
               </Row>
             </Col>
@@ -434,10 +452,13 @@ class Home extends Component {
             <div className={"index-card hide-text-md"}>08</div>
             <Row>
               <Col sm={12} md={12} lg={4} className={'left-col'}>
+                <Row data-sal="slide-down"
+                     data-sal-delay="3000"
+                     data-sal-easing="ease-in-out">
                 <h2 className={'text-left'}>
                   Sustained Collaborat&shy;ions to Build Future Pathways for FOSS in
-                  India
-                </h2>
+                  India</h2>
+                </Row>
               </Col>
               <Col sm={8} className={'right-col'}>
                 <p className={'first-last-block-1'}>
@@ -477,7 +498,9 @@ class Home extends Component {
         <Row className='foss-download-section' id='download-section'>
           <div className='foss-container'>
             <Col sm={12}>
-              <Row>
+              <Row data-sal="slide-down"
+                   data-sal-delay="3000"
+                   data-sal-easing="ease-in-out">
                 <div className={'about-us-title'}>DOWNLOAD THE REPORT</div>
               </Row>
             </Col>
@@ -527,7 +550,9 @@ class Home extends Component {
 
         <div className={'foss-about-section'}>
           <div className={'foss-container'}>
-            <div className={'about-us-title'}>ABOUT US</div>
+            <div className={'about-us-title'} data-sal="slide-down"
+              data-sal-delay="3000"
+              data-sal-easing="ease-in-out">ABOUT US</div>
             <br />
 
             <Row>
@@ -572,7 +597,9 @@ class Home extends Component {
         </div>
         <Row className='foss-footer-section'>
           <div className='foss-container'>
-            <Col sm={12}>
+            <Col sm={12} data-sal="slide-down"
+                 data-sal-delay="3000"
+                 data-sal-easing="ease-in-out">
               <Row>
                 <div className={'about-us-title'} style={{ marginLeft: 0 }}>
                   CONTACT US
