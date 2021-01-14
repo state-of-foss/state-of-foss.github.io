@@ -435,11 +435,9 @@ class Home extends Component {
             <div className={"index-card hide-text-md"}>08</div>
             <Row>
               <Col sm={12} md={12} lg={4} className={'left-col'}>
-                <Row>
                 <h2 className={'text-left'}>
                   Sustained Collaborat&shy;ions to Build Future Pathways for FOSS in
                   India</h2>
-                </Row>
               </Col>
               <Col sm={8} className={'right-col'}>
                 <p className={'first-last-block-1'}>
