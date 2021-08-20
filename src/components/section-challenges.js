@@ -1,10 +1,10 @@
 import React from 'react';
 import data from '../../static/data/data.json';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 
 const Challenges = () => {
   const [value, setValue] = React.useState(1);
-  const { id, name, bold, content } = data[value];
+  const { bold, content } = data[value];
   return (
     <>
       <Col sm={12} md={12} lg={3}>
@@ -14,8 +14,10 @@ const Challenges = () => {
               <div
                 key={item.id}
                 onClick={() => setValue(index)}
+                role="button"
+                tabIndex={index}
                 className={`challenges ${
-                  index == value && 'challenges-active'
+                  index === value && 'challenges-active'
                 }`}
               >
                 {item.name}

@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styles/FocusAreaContent.css';
-import Folder from './Folder';
-import FossGovEdu from '../../static/data/foss_edu.json';
-import Card from './Card';
+// import Folder from './Folder';
+// import FossGovEdu from '../../static/data/foss_edu.json';
+// import Card from './Card';
 
 const FocusAreaContentEdu = () => {
-  const [value, setValue] = React.useState(0);
-  const { id, box } = FossGovEdu[value];
+  // const [value, setValue] = React.useState(0);
+  // const { id, box } = FossGovEdu[value];
 
   return (
     <>

@@ -1,6 +1,4 @@
 import React from 'react';
-import { Row, Col, Container } from 'react-bootstrap';
-import { Link } from 'gatsby';
 
 function Header() {
   return (

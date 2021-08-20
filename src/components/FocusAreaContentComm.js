@@ -1,16 +1,16 @@
 import React from 'react';
 import '../styles/FocusAreaContent.css';
-import Folder from './Folder';
-import FossCommData from '../../static/data/foss_com_1.json';
-import { Container, Row, Col, Button } from 'react-bootstrap';
-import Card from './Card';
+// import Folder from './Folder';
+// import FossCommData from '../../static/data/foss_com_1.json';
+// import { Container, Row, Col, Button } from 'react-bootstrap';
+// import Card from './Card';
 
 const FocusAreaContentComm = () => {
 
-  console.log(FossCommData);
+  // console.log(FossCommData);
 
-  const [value, setValue] = React.useState(0);
-  const { id, box } = FossCommData[value];
+  // const [value, setValue] = React.useState(0);
+  // const { id, box } = FossCommData[value];
 
   return (
     <>
