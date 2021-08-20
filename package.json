@@ -12,11 +12,13 @@
   },
   "dependencies": {
     "@fontsource/nunito": "^4.1.0",
+    "@knight-lab/timelinejs": "^3.8.18",
     "bootstrap": "^4.5.3",
     "gatsby": "^2.25.2",
     "gatsby-image": "^2.9.0",
     "gatsby-plugin-google-analytics": "^2.9.0",
     "gatsby-plugin-google-gtag": "^2.6.0",
+    "gatsby-plugin-less": "^5.12.0",
     "gatsby-plugin-manifest": "^2.10.0",
     "gatsby-plugin-scroll-reveal": "0.0.7",
     "gatsby-plugin-sharp": "^2.12.0",
@@ -27,7 +29,8 @@
     "react": "^16.14.0",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^16.14.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-timelinejs": "^0.1.31"
   },
   "devDependencies": {
     "prettier": "2.1.2"
