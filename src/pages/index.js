@@ -12,6 +12,7 @@ import Challenges from '../components/section-challenges';
 import Header from '../components/Header';
 import SEO from '../components/seo';
 import { Component } from 'react';
+import TimelineComponent from "../components/TimelineComponent"
 
 
 class Home extends Component {
@@ -42,6 +43,7 @@ class Home extends Component {
         <SEO />
         <div className={'section-front-banner-wrapper'} id='section-1'>
           <Header />
+          <TimelineComponent />
 
           {/* <div className={'front-banner-small-content'}>
           The Role of FOSS in India’s Digital Advancement
